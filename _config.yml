@@ -85,6 +85,10 @@ author:
   bio              : "Biography is under building"
   location         : "Ireland"
   employer         : "University College Dublin"
+  links            :
+                    - label: "Made Mistakes"
+                      icon: "fas fa-fw fa-link"
+                      url: "https://mademistakes.com"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=q2cAS1wAAAAJ&hl=en"
   email            : "xuanhui.xu@ucdconnect.ie"
@@ -115,10 +119,7 @@ author:
   xing             :
   youtube          : "UC4xyCEDTMRKjHHWs-BrRnGA"
   wikipedia        :
-  links:
-    - label: "Made Mistakes"
-      icon: "fas fa-fw fa-link"
-      url: "https://mademistakes.com"
+  
 
 
 # Reading Files
