@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Xuanhui Xu"
-  avatar           : "profile.png"
+  avatar           : "self-profile.jpg"
   bio              : "Biography is under building"
   location         : "Ireland"
   employer         : "University College Dublin"
@@ -103,7 +103,7 @@ author:
   impactstory      : 
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : 
@@ -113,7 +113,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://www.youtube.com/channel/UC4xyCEDTMRKjHHWs-BrRnGA"
+  youtube          : "channel/UC4xyCEDTMRKjHHWs-BrRnGA"
   wikipedia        :
 
 
