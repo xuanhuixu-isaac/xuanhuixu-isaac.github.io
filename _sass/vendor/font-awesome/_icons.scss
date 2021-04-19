@@ -107,6 +107,8 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-bitbucket:before { content: fa-content($fa-var-bitbucket); }
 .#{$fa-css-prefix}-bitcoin:before { content: fa-content($fa-var-bitcoin); }
 .#{$fa-css-prefix}-bity:before { content: fa-content($fa-var-bity); }
+.#{$fa-css-prefix}-bilibili:before { content: fa-content($fa-var-calendar); }
+.#{$fa-css-prefix}-bilibili-square:before { content: fa-content($fa-var-calendar); }
 .#{$fa-css-prefix}-black-tie:before { content: fa-content($fa-var-black-tie); }
 .#{$fa-css-prefix}-blackberry:before { content: fa-content($fa-var-blackberry); }
 .#{$fa-css-prefix}-blender:before { content: fa-content($fa-var-blender); }
