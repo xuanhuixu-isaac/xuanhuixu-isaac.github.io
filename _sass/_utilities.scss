@@ -179,6 +179,7 @@ body:hover .visually-hidden button {
   vertical-align: middle;
 }
 
+
 /* social icons*/
 
 .social-icons {
@@ -263,11 +264,6 @@ body:hover .visually-hidden button {
     color: $twitter-color;
   }
 
-  .fa-bilibili,
-  .fa-bilibili-square {
-    color: $bilibili-color;
-  }
-
   .fa-vimeo,
   .fa-vimeo-square {
     color: $vimeo-color;
@@ -288,7 +284,6 @@ body:hover .visually-hidden button {
     color: $xing-color;
   }
 }
-
 
 /*
    Navicons
