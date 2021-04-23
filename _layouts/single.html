@@ -61,6 +61,21 @@ layout: default
             </nav>
           </aside>
         {% endif %}
+        <nav id="lang-sel" >
+          <ul class="lang">
+              {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+              {% capture link2 %}{{ site.baseurl_root }}/cn{{ page.url}}{% endcapture %}
+              {% if site.lang == "cn" %}
+              <li class="masthead_menu-item visible-links">
+                <a href="{{ link2 }}" class="enabled">{% t global.chinese%} </a>|<a href="{{ link1 }}"> {% t global.english%}</a>
+              </li>
+              {% elsif site.lang == "en" %}
+              <li class="masthead_menu-item lang">
+                <a href="{{ link2 }}">{% t global.chinese%} </a>|<a href="{{ link1 }}" class="enabled"> {% t global.english%}</a>
+              </li>
+              {% endif %}
+          </ul>
+       </nav>
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
