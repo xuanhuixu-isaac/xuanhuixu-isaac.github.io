@@ -1,0 +1,29 @@
+main:
+  - title: "论文"
+    url: /publications/
+
+  - title: "演讲"
+    url: /talks/    
+
+  - title: "教学"
+    url: /teaching/    
+    
+  - title: "资料夹"
+    url: /portfolio/
+        
+  - title: "博客"
+    url: /year-archive/
+    
+  - title: "简历"
+    url: /cv/
+    
+  - title: "指引"
+    url: /markdown/
+
+
+author:
+  name             : "许炫辉"
+  avatar           : "self-profile.jpg"
+  bio              : "网站建设中"
+  location         : "爱尔兰"
+  employer         : "都柏林大学"
