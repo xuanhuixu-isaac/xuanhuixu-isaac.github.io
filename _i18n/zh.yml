@@ -20,6 +20,11 @@ main:
   - title: "指引"
     url: /markdown/
 
+title              : "许炫辉（Isaac）"
+
+global:
+  english          : "中 -> En"
+  chinese          : "En -> 中"
 
 author:
   name             : "许炫辉"
@@ -28,10 +33,21 @@ author:
   location         : "爱尔兰"
   employer         : "都柏林大学"
 
+social:
+  researchgate     : "研究之门"
+  googlescholar    : "谷歌学术"
+  twitter          : "推特"
+  youtube          : "油管"
+  bilibili         : "哔哩哔哩"
+  linkedin         : "领英"
   
 titles:
-  about            : "啊，花了我这么长时间，快好使吧！"
-  posts            : "发表的博客"
+  about            : "关于我"
+  publications     : "论文发表"
+  talks            : "演讲"
+  teaching         : "教学"
+  portfolio        : "资料夹"
+  posts            : "博客"
   cv               : "简历"
 
 UI:

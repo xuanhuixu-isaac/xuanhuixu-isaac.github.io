@@ -6,7 +6,19 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{% t title %}</a></li>
+          {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+          {% capture link2 %}{{ site.baseurl_root }}/zh{{ page.url}}{% endcapture %}
+          {% if site.lang == "en" %}
+          <li class="masthead__menu-item masthead__menu-item--ft">
+            <a href="{{ link2 }}"> {% t global.chinese%}</a>
+          </li>
+          {% elsif site.lang == "zh" %}
+          <li class="masthead__menu-item masthead__menu-item--ft">
+            <a href="{{ link1 }}">{% t global.english%} </a>
+          </li>
+          {% endif %}
+
           {% for link in site.translations[site.lang].main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}

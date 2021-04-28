@@ -20,6 +20,11 @@ main:
   - title: "Guide"
     url: /markdown/
 
+title              : "Xuanhui Xu (Isaac)"
+
+global:
+  english          : "中 -> En"
+  chinese          : "En -> 中"
 
 author:
   name             : "Xuanhui Xu"
@@ -28,8 +33,20 @@ author:
   location         : "Ireland"
   employer         : "University College Dublin"
 
+social:
+  researchgate     : "ResearchGate"
+  googlescholar    : "Google Scholar"
+  twitter          : "Twitter"
+  youtube          : "Youtube"
+  bilibili         : "Bilibili"
+  linkedin         : "LinkedIn"
+
 titles:
   about            : "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+  publications     : "Publications"
+  talks            : "Talks and presentations"
+  teaching         : "Teaching"
+  portfolio        : "Portfolio"
   posts            : "Blog posts"
   cv               : "CV"
 
