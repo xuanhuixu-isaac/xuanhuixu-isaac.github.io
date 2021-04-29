@@ -2,14 +2,14 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+#  - title: "Talks"
+#    url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+#  - title: "Teaching"
+#    url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+#  - title: "Portfolio"
+#    url: /portfolio/
         
   - title: "Blog Posts"
     url: /year-archive/
@@ -17,8 +17,8 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
+#  - title: "Guide"
+#    url: /markdown/
 
 title              : "Xuanhui Xu (Isaac)"
 
@@ -29,7 +29,7 @@ global:
 author:
   name             : "Xuanhui Xu"
   avatar           : "self-profile.jpg"
-  bio              : "Biography is under building"
+  bio              : "Computer Science Ph.D student, working on Virtual Reality and Augmented Reality application in Medicine and Veterinary education"
   location         : "Ireland"
   employer         : "University College Dublin"
 
@@ -42,7 +42,7 @@ social:
   linkedin         : "LinkedIn"
 
 titles:
-  about            : "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+  about            : "About me"
   publications     : "Publications"
   talks            : "Talks and presentations"
   teaching         : "Teaching"

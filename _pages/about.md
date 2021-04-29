@@ -4,7 +4,7 @@ permalink: /
 title: titles.about
 excerpt: "About me"
 author_profile: true
-toc: true
+model: true
 redirect_from: 
   - /about/
   - /about.html
@@ -61,6 +61,12 @@ redirect_from:
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.model %}
+          <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+          <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+            <model-viewer src="models/oculusquest.gltf" alt="A 3D model of an astronaut" auto-rotate camera-controls></model-viewer>
+          </aside>
+        {% endif %}
         {% translate_file _pages/about.md %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.translations[site.lang].UI.ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>

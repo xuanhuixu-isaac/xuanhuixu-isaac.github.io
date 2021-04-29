@@ -34,7 +34,7 @@ import pandas as pd
 
 # In[3]:
 
-publications = pd.read_csv("publications.tsv", sep="\t", header=0)
+publications = pd.read_csv(r"C:\Users\Isaac\Documents\GitHub\Website\markdown_generator\publications.tsv", sep="\t", header=0)
 publications
 
 
@@ -102,7 +102,7 @@ for row, item in publications.iterrows():
     
     md_filename = os.path.basename(md_filename)
        
-    with open("../_publications/" + md_filename, 'w') as f:
+    with open("C:/Users/Isaac/Documents/GitHub/Website/_publications/" + md_filename, 'w', encoding='utf-8') as f:
         f.write(md)
 
 

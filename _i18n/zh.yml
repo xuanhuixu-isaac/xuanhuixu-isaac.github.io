@@ -2,14 +2,14 @@ main:
   - title: "论文"
     url: /publications/
 
-  - title: "演讲"
-    url: /talks/    
+#  - title: "演讲"
+#    url: /talks/    
 
-  - title: "教学"
-    url: /teaching/    
+#  - title: "教学"
+#    url: /teaching/    
     
-  - title: "资料夹"
-    url: /portfolio/
+#  - title: "资料夹"
+#    url: /portfolio/
         
   - title: "博客"
     url: /year-archive/
@@ -17,8 +17,8 @@ main:
   - title: "简历"
     url: /cv/
     
-  - title: "指引"
-    url: /markdown/
+#  - title: "指引"
+#    url: /markdown/
 
 title              : "许炫辉（Isaac）"
 
@@ -29,7 +29,7 @@ global:
 author:
   name             : "许炫辉"
   avatar           : "self-profile.jpg"
-  bio              : "网站建设中"
+  bio              : "计算机科学博士生，主攻虚拟现实与增强现实在医学教育以及兽医学教育领域的应用"
   location         : "爱尔兰"
   employer         : "都柏林大学"
 
@@ -52,8 +52,8 @@ titles:
 
 UI:
   page                       : "页面"
-  pagination_previous        : "上一页"
-  pagination_next            : "下一页"
+  pagination_previous        : "上一篇"
+  pagination_next            : "下一篇"
   breadcrumb_home_label      : "首页"
   breadcrumb_separator       : "/"
   toc_label                  : "目录"
