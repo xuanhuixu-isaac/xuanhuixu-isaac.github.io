@@ -2,49 +2,34 @@
 
 教育
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* 北京工业大学，本科生，2014-2017
+* 都柏林大学，本科生，2017-2018
+* 都柏林大学，硕士研究生，2018-2019
+* 都柏林大学，虚拟现实，博士研究生在读，2019-2022 (预计)
 
-Work experience
+工作经历
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2017年夏：游戏开发实习
+  * 萌石科技
+  * 主要职责：游戏开发，游戏策划
   
-Skills
+技能
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Unity3D游戏引擎
+* 计算机语言
+  * Java
+  * C#
+  * Python
+* 其他
+  * Blender
+  * Adobe Photoshop
+  * Adobe PremiumPro
+* 语言
+  * 中文
+  * 英语
 
-Publications
+论文发表
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
