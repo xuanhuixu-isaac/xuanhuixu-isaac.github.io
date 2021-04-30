@@ -23,8 +23,8 @@ main:
 title              : "许炫辉（Isaac）"
 
 global:
-  english          : "中 -> En"
-  chinese          : "En -> 中"
+  english          : "En"
+  chinese          : "中"
 
 author:
   name             : "许炫辉"
@@ -70,7 +70,7 @@ UI:
   more_label                 : "了解更多"
   related_label              : "你可能感兴趣的"
   follow_label               : "关注:"
-  feed_label                 : "Feed嵌入？"
+  feed_label                 : "Feed"
   powered_by                 : "基于"
   website_label              : "网站"
   email_label                : "邮箱"

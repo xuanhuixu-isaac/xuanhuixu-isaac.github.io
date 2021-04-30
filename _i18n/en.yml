@@ -23,8 +23,8 @@ main:
 title              : "Xuanhui Xu (Isaac)"
 
 global:
-  english          : "中 -> En"
-  chinese          : "En -> 中"
+  english          : "En"
+  chinese          : "中"
 
 author:
   name             : "Xuanhui Xu"

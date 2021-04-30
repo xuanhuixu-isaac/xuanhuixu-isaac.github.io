@@ -26,7 +26,7 @@ redirect_from:
   {% include sidebar.html %}
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.title %}<meta itemprop="headline" content="{{ site.translations[site.lang].titles.about | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
@@ -62,10 +62,7 @@ redirect_from:
 
       <section class="page__content" itemprop="text">
         {% if page.model %}
-          <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-          <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
-            <model-viewer src="models/oculusquest.gltf" alt="A 3D model of an astronaut" auto-rotate camera-controls></model-viewer>
-          </aside>
+          
         {% endif %}
         {% translate_file _pages/about.md %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.translations[site.lang].UI.ext_link_label | default: "Direct Link" }}</a></div>{% endif %}

@@ -177,6 +177,20 @@
   min-width: 250px;
   background: $background-color;
 
+  .languagebtn {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0;
+    top: 4px;
+    z-index: 10;
+    border: 1px solid $light-gray;
+    border-radius: $border-radius;
+    font-size: xx-small;
+    font-weight: 700;
+    text-align: center;
+  }
+
   a {
     display: block;
     margin: 0 1rem;
@@ -202,6 +216,7 @@
   }
 
   .visible-links {
+    position: relative;
     display: table;
 
     li {
