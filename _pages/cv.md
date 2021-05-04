@@ -2,6 +2,7 @@
 layout: default
 title: titles.cv
 permalink: /cv/
+header: cv
 author_profile: true
 redirect_from:
   - /resume

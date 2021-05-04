@@ -28,7 +28,7 @@
 
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.collection == 'publications' %}
-        {{ title }}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% elsif post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
@@ -52,7 +52,7 @@
         </blockquote>
         </details>
       {% endif %}
-      
+
       <!-- citation and icon code -->
       <p>
       {% if post.citation %}
@@ -86,7 +86,7 @@
         </div>
         </a>
       </p>
-    {% elsif post.excerpt and site.read_more != 'enabled' %}
+    {% elsif post.excerpt and site.read_more != 'enabled' and post.collection != 'publications'%}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description">

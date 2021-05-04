@@ -57,7 +57,7 @@ UI:
   breadcrumb_home_label      : "首页"
   breadcrumb_separator       : "/"
   toc_label                  : "目录"
-  ext_link_label             : "Direct Link"
+  ext_link_label             : "链接"
   less_than                  : "少于"
   minute_read                : "分钟阅读时间"
   share_on_label             : "分享"

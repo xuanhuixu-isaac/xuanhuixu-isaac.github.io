@@ -4,6 +4,7 @@ permalink: /
 title: titles.about
 excerpt: "About me"
 author_profile: true
+header: about
 model: true
 redirect_from: 
   - /about/
