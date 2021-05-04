@@ -99,7 +99,10 @@ for row, item in publications.iterrows():
         
     if len(str(item.excerpt)) > 5:
         md += "\nAbstract \n------ \n" + html_escape(item.excerpt) + "\n"
-        
+
+    if item.image != 'none':    
+        md += "\nImage \n------\n <br/><img src='" + item.image + "'>\n" 
+
     md += "\nRecommended citation: \n------ \n" + item.citation
     
     md_filename = os.path.basename(md_filename)
