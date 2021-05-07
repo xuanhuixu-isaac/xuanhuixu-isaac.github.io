@@ -63,7 +63,7 @@
         <a href="{{ post.link }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
       {% endif %}
       {% if post.paperurl %}
-        <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a>
+        <a href="{{ post.paperurl }}" class="social-icons"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i></a>
       {% endif %}
       {% if post.code %}
         <a href="{{ post.code }}"><i class="fas fa-fw fa-code zoom" aria-hidden="true"></i></a>
@@ -72,8 +72,28 @@
         <a href="{{ post.github }}"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a>
       {% endif %}
       </p>
+
     {% elsif post.collection == 'posts' and post.date %}
       <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+    {% elsif post.collection == 'portfolio' and post.date %}
+      <p class="page__date">
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+        <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</time>
+        {% if post.tags[0] %}
+          <i class="fa fa-fw fa-tags" aria-hidden="true" style="margin-left: 1em;"></i>
+          <span itemprop="keywords">
+          {% for tag_word in post.tags %}
+            {% if tag_word == "research"%}
+            <i class="page__tag page__tag--research">{{ tag_word }}</i>
+            {% elsif tag_word == "game" %}
+            <i class="page__tag page__tag--game">{{ tag_word }}</i>
+            {% else %}
+            <i class="page__tag page__tag--other">{{ tag_word }}</i>
+            {% endif %}
+          {% endfor %}
+          </span>
+        {% endif %}
+      </p>
     {% endif %}
     
     {% if post.excerpt and post.collection == 'research' and site.read_more != 'enabled' %}

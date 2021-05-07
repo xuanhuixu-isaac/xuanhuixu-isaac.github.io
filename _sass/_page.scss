@@ -399,3 +399,31 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/*
+   Created by Isaac
+   ========================================================================== */
+
+.page__tag {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: xx-small;
+
+  &--research {
+    color: #8ab6d6;
+    border-color: #0061a8;
+  }
+
+  &--game {
+    color: #f7a440;
+    border-color: #e1701a;
+  }
+
+  &--other {
+    color: #8e7f7f;
+    border-color: #bbbbbb;
+  }
+}
