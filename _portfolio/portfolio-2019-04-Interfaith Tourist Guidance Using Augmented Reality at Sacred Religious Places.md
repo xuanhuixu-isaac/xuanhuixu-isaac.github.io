@@ -6,6 +6,7 @@ collection: portfolio
 toc: true
 tags:
  - research
+pdf: "/files/Interfaith Tourist Guidance Using Augmented Reality at Sacred Religious Places.pdf"
 ---
 
 Background

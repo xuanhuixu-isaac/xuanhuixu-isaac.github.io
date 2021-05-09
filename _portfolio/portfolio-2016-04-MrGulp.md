@@ -3,11 +3,16 @@ title: "Mr.Gulp"
 excerpt: "Second year group project: a little Java game<br/><img src='/images/Mr.Gulp.png' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>"
 date: 2016-04-20
 collection: portfolio
+toc: true
 tags:
  - game
  - java
 ---
 
+Demo
+======
+
+<img src='/images/Gulp.gif' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>
 
 Responsibility
 ======

@@ -8,6 +8,7 @@ toc: true
 tags:
   - research
   - published
+pdf: "/files/Comparison Between Augmented Reality and Mobile Virtual Reality in Anatomy Education.pdf"
 ---
 
 Individual Project Prerequisites

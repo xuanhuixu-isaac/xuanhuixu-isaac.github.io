@@ -8,7 +8,13 @@ toc: true
 tags:
  - research
  - published
+video: "https://youtu.be/Qn55bFj0F8E"
+pdf: "/files/FYP.pdf"
 ---
+
+Video
+======
+<iframe src='https://www.youtube.com/embed/Qn55bFj0F8E'></iframe>
 
 Project Specification
 ======

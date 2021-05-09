@@ -3,8 +3,10 @@ title: "Note Pills"
 excerpt: "Forth year group project: a little android overlay note app<br/><img src='/images/NotePills.png' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>"
 date: 2017-12-03
 collection: portfolio
+toc: true
 tags:
  - android
+pdf: "/files/Note Pills.pdf"
 ---
 
 Background

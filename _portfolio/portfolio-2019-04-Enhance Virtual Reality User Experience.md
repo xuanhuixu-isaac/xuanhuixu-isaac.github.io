@@ -6,6 +6,7 @@ collection: portfolio
 toc: true
 tags:
  - research
+pdf: "/files/Enhance Virtual Reality User Experience.pdf"
 ---
 
 Background

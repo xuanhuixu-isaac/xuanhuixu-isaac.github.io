@@ -6,7 +6,14 @@ collection: portfolio
 toc: true
 tags:
  - research
+video: "https://youtu.be/g2K9TmxJ-Hg"
+pdf: "/files/GWAP.pdf"
 ---
+
+Video
+======
+<iframe src='https://www.youtube.com/embed/g2K9TmxJ-Hg'></iframe>
+
 
 Background
 ======

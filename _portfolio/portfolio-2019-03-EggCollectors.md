@@ -7,7 +7,13 @@ toc: true
 tags:
  - game
  - GameMaker
+video: "https://youtu.be/w4N1ribeIys"
+pdf: "/files/EggCollectors.pdf"
 ---
+
+Video
+======
+<iframe src='https://www.youtube.com/embed/w4N1ribeIys'></iframe>
 
 Background
 ======

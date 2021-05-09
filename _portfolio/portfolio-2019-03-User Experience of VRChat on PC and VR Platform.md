@@ -6,6 +6,7 @@ collection: portfolio
 toc: true
 tags:
  - research
+pdf: "/files/User Experience of VRChat on PC and VR Platform.pdf"
 ---
 
 Background

@@ -7,7 +7,13 @@ toc: true
 tags:
  - game
  - Unity
+video: "https://youtu.be/_dTWPRyGPQA"
+pdf: "/files/DroneDestoryer.pdf"
 ---
+
+Video
+======
+<iframe src='https://www.youtube.com/embed/_dTWPRyGPQA'></iframe>
 
 Background
 ======

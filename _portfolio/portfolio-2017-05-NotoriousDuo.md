@@ -3,10 +3,18 @@ title: "Notoruous Duo"
 excerpt: "Third year group project: a little Unity3D game<br/><img src='/images/NotoriousDuo.png' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>"
 date: 2017-05-24
 collection: portfolio
+toc: true
 tags:
  - game
  - Unity
+video: "https://youtu.be/AJHGBPGSVEg"
+pdf: "/files/Notorious Duo.pdf"
 ---
+
+Video
+======
+<iframe src="https://www.youtube.com/embed/AJHGBPGSVEg"></iframe>
+
 
 Background
 ======
