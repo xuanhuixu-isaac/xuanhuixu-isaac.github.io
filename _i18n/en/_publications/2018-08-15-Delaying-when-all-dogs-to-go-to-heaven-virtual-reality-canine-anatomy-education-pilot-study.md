@@ -1,6 +1,6 @@
 ---
 title: "Delaying when all dogs to go to heaven: virtual reality canine anatomy education pilot study"
-collection: publications
+# collection: publications
 permalink: /publication/2018-08-15-Delaying-when-all-dogs-to-go-to-heaven-virtual-reality-canine-anatomy-education-pilot-study
 date: 2018-08-15
 venue: '2018 IEEE Games, Entertainment, Media Conference (GEM)'

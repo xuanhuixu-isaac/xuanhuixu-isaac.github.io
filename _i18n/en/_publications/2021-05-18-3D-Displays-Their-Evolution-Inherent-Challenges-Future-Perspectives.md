@@ -1,6 +1,6 @@
 ---
 title: "3D Displays: Their Evolution, Inherent Challenges & Future Perspectives"
-collection: publications
+# collection: publications
 permalink: /publication/2021-05-18-3D-Displays-Their-Evolution-Inherent-Challenges-Future-Perspectives
 date: 2021-05-18
 venue: 'Future Technologies Conference(FTC) 2021'

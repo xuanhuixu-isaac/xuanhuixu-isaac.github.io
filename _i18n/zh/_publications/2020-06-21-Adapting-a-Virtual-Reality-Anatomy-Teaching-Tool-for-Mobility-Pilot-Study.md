@@ -1,6 +1,6 @@
 ---
 title: "Adapting-a-Virtual-Reality-Anatomy-Teaching-Tool-for-Mobility-Pilot-Study"
-collection: publications
+# collection: publications
 permalink: /publication/2020-06-21-Adapting-a-Virtual-Reality-Anatomy-Teaching-Tool-for-Mobility-Pilot-Study
 date: 2020-06-21
 venue: '2020 6th International Conference of the Immersive Learning Research Network (iLRN)'

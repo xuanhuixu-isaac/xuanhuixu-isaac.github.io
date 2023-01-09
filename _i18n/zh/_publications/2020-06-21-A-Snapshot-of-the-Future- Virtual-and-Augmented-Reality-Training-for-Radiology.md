@@ -1,6 +1,6 @@
 ---
 title: "A Snapshot of the Future: Virtual and Augmented Reality Training for Radiology"
-collection: publications
+# collection: publications
 permalink: /publication/2020-06-21-A-Snapshot-of-the-Future- Virtual-and-Augmented-Reality-Training-for-Radiology
 date: 2020-06-21
 venue: '2020 6th International Conference of the Immersive Learning Research Network (iLRN)'

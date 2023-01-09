@@ -1,6 +1,6 @@
 ---
 title: "HMD-based Virtual and Augmented Reality in medical education: a systematic review"
-collection: publications
+# collection: publications
 permalink: /publication/2021-06-04-HMD-based-Virtual-and-Augmented-Reality-in-medical-education-a-systematic-review
 date: 2021-06-04
 venue: 'Frontiers in Virtual Reality 2021'

@@ -1,6 +1,6 @@
 ---
 title: "METAL: Explorations into sharing 3D Educational content across Augmented Reality Headsets and Light Field Displays"
-collection: publications
+# collection: publications
 permalink: /publication/2021-06-01-METAL-Explorations-into-sharing-3D-Educational-content-across-Augmented-Reality-Headsets-and-Light-Field-Displays
 date: 2021-06-01
 venue: '2021 7th International Conference of the Immersive Learning Research Network (iLRN)'

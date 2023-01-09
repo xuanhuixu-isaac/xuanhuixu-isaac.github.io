@@ -1,6 +1,6 @@
 ---
 title: "An asymmetrical remote learning system for sharing anatomy between an HMD and a light field display"
-collection: publications
+# collection: publications
 permalink: /publication/2020-11-01-An-asymmetrical-remote-learning-system-for-sharing-anatomy-between-an-HMD-and-a-light-field-display
 date: 2020-11-01
 venue: '26th ACM Symposium on Virtual Reality Software and Technology'
