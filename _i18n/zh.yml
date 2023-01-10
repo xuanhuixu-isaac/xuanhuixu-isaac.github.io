@@ -50,6 +50,9 @@ titles:
   posts            : "博客"
   cv               : "简历"
 
+publication:
+  abstract         : "摘要"
+
 UI:
   page                       : "页面"
   pagination_previous        : "上一篇"

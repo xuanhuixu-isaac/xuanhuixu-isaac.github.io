@@ -50,6 +50,9 @@ titles:
   posts            : "Blog posts"
   cv               : "CV"
 
+publication:
+  abstract         : "Abstract"
+
 UI:
   page                       : "Page"
   pagination_previous        : "Previous"
