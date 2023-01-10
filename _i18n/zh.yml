@@ -51,7 +51,10 @@ titles:
   cv               : "简历"
 
 publication:
-  abstract         : "摘要"
+  abstract                   : "摘要"
+  recommended_citation       : "引用建议"
+  image                      : "图片"
+  published_in               : "发表于 "
 
 UI:
   page                       : "页面"

@@ -1,6 +1,6 @@
 ---
 title: "HMD-based Virtual and Augmented Reality in medical education: a systematic review"
-# collection: publications
+collection: publications
 permalink: /publication/2021-06-04-HMD-based-Virtual-and-Augmented-Reality-in-medical-education-a-systematic-review
 date: 2021-06-04
 venue: 'Frontiers in Virtual Reality 2021'
@@ -8,7 +8,7 @@ paperurl: 'https://www.researchgate.net/publication/352132156_HMD-based_Virtual_
 citation: 'X. Xu, and A. G. Campbell, &quot;HMD-based-Virtual-and-Augmented-Reality-in-medical-education-a-systematic-review.&quot; <i>Frontiers in Virtual Reality</i>, 2 (2021): 82.'
 link: 'https://www.frontiersin.org/articles/10.3389/frvir.2021.692103/abstract'
 ---
-Abstract 
+{% t publication.abstract %}
 ------ 
 Background: Virtual Reality (VR) and Augmented Reality (AR) technologies provide a novel experiential learning environment that can revolutionise medical education. These technologies have limitless potential as they provide in effect an infinite number of anatomical models to aid in foundational medical education. The 3D teaching models used within these environments are generated from medical data such as Magnetic Resonance Imaging (MRI), or Computed Tomography (CT), which can be dissected and regenerated without limitations.
 
@@ -18,6 +18,6 @@ Result: The electronic searches generated a total of 1241 studies. After removin
 
 Conclusions: The systematic review provides the current state of the art on head-mounted device applications in medical education. Moreover, the paper discusses trends towards the future and directions for further research in head-mounted VR and AR for medical anatomy education.
 
-Recommended citation: 
+{% t publication.recommended_citation %}
 ------ 
 X. Xu, and A. G. Campbell, "HMD-based-Virtual-and-Augmented-Reality-in-medical-education-a-systematic-review." <i>Frontiers in Virtual Reality</i>, 2 (2021): 82.

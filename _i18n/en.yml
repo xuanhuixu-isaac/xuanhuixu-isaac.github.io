@@ -51,7 +51,10 @@ titles:
   cv               : "CV"
 
 publication:
-  abstract         : "Abstract"
+  abstract                   : "Abstract"
+  Recommended citation       : "Recommended citation"
+  Image                      : "Image"
+  published_in               : "Published in "
 
 UI:
   page                       : "Page"

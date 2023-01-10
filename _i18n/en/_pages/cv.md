@@ -1,4 +1,4 @@
-
+<iframe src="/files/Resume 2022 - Xuanhui.pdf" width="100%" height="1000"></iframe>
 
 Education
 ======
@@ -9,7 +9,7 @@ Education
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
