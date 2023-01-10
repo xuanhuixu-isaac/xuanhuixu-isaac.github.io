@@ -48,13 +48,15 @@ layout: default
           </p>
         {% endif %}
         
+        <p>
         {% if page.link %}
-        <a href="{{ post.link }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
+          <a href="{{ post.link }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
         {% endif %}
         {% if page.paperurl %}
           <a href="{{ post.paperurl }}" class="social-icons"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i></a>
         {% endif %}
-    
+        </p>
+
         </header>
       {% endunless %}
 
@@ -69,6 +71,9 @@ layout: default
         {% endif %}
         {{ content }}
         <!--{% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.translations[site.lang].UI.ext_link_label | default: "Direct Link" }}</a></div>{% endif %}-->
+        {% if post.citation %}
+          {{ post.citation }}
+        {% endif %}
       </section>
 
       <footer class="page__meta">
