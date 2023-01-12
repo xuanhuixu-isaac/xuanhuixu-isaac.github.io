@@ -59,7 +59,9 @@ publication:
   published                  : "This project has been peer reviewed"
 
 talk:
-  date              : "Date"
+  date                        : "Date"
+  conference_proceedings_talk : "Conference proceedings talk"
+  at                          : "at"
 
 UI:
   page                       : "Page"

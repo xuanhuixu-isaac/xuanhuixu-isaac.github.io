@@ -59,7 +59,9 @@ publication:
   published                  : "此项目已经过同行评审"
 
 talk:
-  date              : "日期"
+  date                        : "日期"
+  conference_proceedings_talk : "学术会议演讲"
+  at                          : "于"
 
 UI:
   page                       : "页面"
