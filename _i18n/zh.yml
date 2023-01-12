@@ -2,8 +2,8 @@ main:
   - title: "论文"
     url: /publications/
 
-#  - title: "演讲"
-#    url: /talks/    
+  - title: "演讲"
+    url: /talks/    
 
 #  - title: "教学"
 #    url: /teaching/    
@@ -57,6 +57,9 @@ publication:
   image                      : "图片"
   published_in               : "发表于 "
   published                  : "此项目已经过同行评审"
+
+talk:
+  date              : "日期"
 
 UI:
   page                       : "页面"

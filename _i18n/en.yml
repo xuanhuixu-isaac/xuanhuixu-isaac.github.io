@@ -2,8 +2,8 @@ main:
   - title: "Publications"
     url: /publications/
 
-#  - title: "Talks"
-#    url: /talks/    
+  - title: "Talks"
+    url: /talks/    
 
 #  - title: "Teaching"
 #    url: /teaching/    
@@ -58,6 +58,9 @@ publication:
   published_in               : "Published in "
   published                  : "This project has been peer reviewed"
 
+talk:
+  date              : "Date"
+  
 UI:
   page                       : "Page"
   pagination_previous        : "Previous"
