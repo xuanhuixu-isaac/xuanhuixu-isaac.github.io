@@ -43,7 +43,7 @@ layout: default
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.translations[site.lang].UI.date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
             {% if page.published %}
-              <a href="{{ base_path }}{{page.published}}">(This project has been peer reviewed)</a>
+              <a href="{{ base_path }}{{page.published}}">({{publication.published}})</a>
             {% endif %}
           </p>
         {% endif %}

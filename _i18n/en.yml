@@ -55,6 +55,7 @@ publication:
   recommended citation       : "Recommended citation"
   image                      : "Image"
   published_in               : "Published in "
+  published                  : "This project has been peer reviewed"
 
 UI:
   page                       : "Page"

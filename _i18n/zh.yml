@@ -55,6 +55,7 @@ publication:
   recommended_citation       : "引用建议"
   image                      : "图片"
   published_in               : "发表于 "
+  published                  : "此项目已经过同行评审"
 
 UI:
   page                       : "页面"
