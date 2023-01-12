@@ -45,7 +45,7 @@ social:
 titles:
   about            : "About me"
   publications     : "Publications"
-  talks            : "Talks and presentations"
+  talks            : "Presentations"
   teaching         : "Teaching"
   portfolio        : "Portfolio"
   posts            : "Blog posts"
@@ -60,7 +60,7 @@ publication:
 
 talk:
   date              : "Date"
-  
+
 UI:
   page                       : "Page"
   pagination_previous        : "Previous"
