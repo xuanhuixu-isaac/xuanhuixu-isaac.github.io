@@ -5,8 +5,8 @@ permalink: /publication/2021-06-04-HMD-based-Virtual-and-Augmented-Reality-in-me
 date: 2021-06-04
 venue: 'Frontiers in Virtual Reality 2021'
 paperurl: 'https://www.researchgate.net/publication/352132156_HMD-based_Virtual_and_Augmented_Reality_in_medical_education_a_systematic_review'
-citation: 'X. Xu, and A. G. Campbell, &quot;HMD-based-Virtual-and-Augmented-Reality-in-medical-education-a-systematic-review.&quot; <i>Frontiers in Virtual Reality</i>, 2 (2021): 82.'
-link: 'https://www.frontiersin.org/articles/10.3389/frvir.2021.692103/abstract'
+citation: 'Xu X, Mangina E and Campbell AG (2021) HMD-Based Virtual and Augmented Reality in Medical Education: A Systematic Review. Front. Virtual Real. 2:692103. doi: 10.3389/frvir.2021.692103'
+link: 'https://doi.org/10.3389/frvir.2021.692103'
 ---
 {% t publication.abstract %}
 ------ 
@@ -20,4 +20,4 @@ Conclusions: The systematic review provides the current state of the art on head
 
 {% t publication.recommended_citation %}
 ------ 
-X. Xu, and A. G. Campbell, "HMD-based-Virtual-and-Augmented-Reality-in-medical-education-a-systematic-review." <i>Frontiers in Virtual Reality</i>, 2 (2021): 82.
+Xu X, Mangina E and Campbell AG (2021) HMD-Based Virtual and Augmented Reality in Medical Education: A Systematic Review. Front. Virtual Real. 2:692103. doi: 10.3389/frvir.2021.692103

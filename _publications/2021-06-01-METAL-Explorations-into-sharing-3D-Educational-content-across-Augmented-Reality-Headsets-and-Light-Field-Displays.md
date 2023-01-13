@@ -5,8 +5,8 @@ permalink: /publication/2021-06-01-METAL-Explorations-into-sharing-3D-Educationa
 date: 2021-06-01
 venue: '2021 7th International Conference of the Immersive Learning Research Network (iLRN)'
 paperurl: 'https://www.researchgate.net/publication/352186129_METAL_Explorations_into_sharing_3D_Educational_content_across_Augmented_Reality_Headsets_and_Light_Field_Displays'
-citation: 'M. Zheng, X. Pan, X. Xu, and A. G. Campbell, &quot;METAL: Explorations into sharing 3D Educational content across Augmented Reality Headsets and Light Field Displays.&quot; <i>iLRN 2021: Immersive Learning Research Network</i>, 2021'
-link: 'https://www.researchgate.net/publication/352186129_METAL_Explorations_into_sharing_3D_Educational_content_across_Augmented_Reality_Headsets_and_Light_Field_Displays'
+citation: 'M. Zheng, X. Pan, X. Xu and A. G. Campbell, "METAL: Explorations into Sharing 3D Educational Content across Augmented Reality Headsets and Light Field Displays," 2021 7th International Conference of the Immersive Learning Research Network (iLRN), Eureka, CA, USA, 2021, pp. 1-6, doi: 10.23919/iLRN52045.2021.9459419.'
+link: 'https://doi.org/10.23919/iLRN52045.2021.9459419'
 ---
 {% t publication.abstract %}
 ------ 
@@ -18,4 +18,4 @@ Augmented Reality and Virtual Reality become increasingly popular in scientific 
 
 {% t publication.recommended_citation %}
 ------ 
-M. Zheng, X. Pan, X. Xu, and A. G. Campbell, "METAL: Explorations into sharing 3D Educational content across Augmented Reality Headsets and Light Field Displays." <i>iLRN 2021: Immersive Learning Research Network</i>, 2021
+M. Zheng, X. Pan, X. Xu and A. G. Campbell, "METAL: Explorations into Sharing 3D Educational Content across Augmented Reality Headsets and Light Field Displays," 2021 7th International Conference of the Immersive Learning Research Network (iLRN), Eureka, CA, USA, 2021, pp. 1-6, doi: 10.23919/iLRN52045.2021.9459419.

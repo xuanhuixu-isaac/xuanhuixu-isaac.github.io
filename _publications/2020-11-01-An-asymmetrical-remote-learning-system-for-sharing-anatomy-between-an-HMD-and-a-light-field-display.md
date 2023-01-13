@@ -5,7 +5,7 @@ permalink: /publication/2020-11-01-An-asymmetrical-remote-learning-system-for-sh
 date: 2020-11-01
 venue: '26th ACM Symposium on Virtual Reality Software and Technology'
 paperurl: 'https://www.researchgate.net/publication/345495589_ARLS_An_asymmetrical_remote_learning_system_for_sharing_anatomy_between_an_HMD_and_a_light_field_display'
-citation: 'X. Xu, X. Pan, and A. G. Campbell, &quot;ARLS: An asymmetrical remote learning system for sharing anatomy between an HMD and a light field display.&quot; <i>26th ACM Symposium on Virtual Reality Software and Technology</i>, 2020, pp. 1-2. doi:https://doi.org/10.1145/3385956.3422095.'
+citation: 'Xuanhui Xu, Xingyu Pan, and Abraham G. Campbell. 2020. ARLS: An asymmetrical remote learning system for sharing anatomy between an HMD and a light field display. In Proceedings of the 26th ACM Symposium on Virtual Reality Software and Technology (VRST '20). Association for Computing Machinery, New York, NY, USA, Article 43, 1–2. https://doi.org/10.1145/3385956.3422095'
 link: 'https://doi.org/10.1145/3385956.3422095'
 ---
 {% t publication.abstract %}
@@ -18,4 +18,4 @@ VR remote learning is an environment-friendly approach for anatomy learning comp
 
 {% t publication.recommended_citation %}
 ------ 
-X. Xu, X. Pan, and A. G. Campbell, "ARLS: An asymmetrical remote learning system for sharing anatomy between an HMD and a light field display." <i>26th ACM Symposium on Virtual Reality Software and Technology</i>, 2020, pp. 1-2. doi:https://doi.org/10.1145/3385956.3422095.
+Xuanhui Xu, Xingyu Pan, and Abraham G. Campbell. 2020. ARLS: An asymmetrical remote learning system for sharing anatomy between an HMD and a light field display. In Proceedings of the 26th ACM Symposium on Virtual Reality Software and Technology (VRST '20). Association for Computing Machinery, New York, NY, USA, Article 43, 1–2. https://doi.org/10.1145/3385956.3422095

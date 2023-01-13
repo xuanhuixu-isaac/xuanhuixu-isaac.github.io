@@ -1,11 +1,11 @@
 ---
-title: "A Snapshot of the Future: Virtual and Augmented Reality Training for Radiology"
+title: "Doctoral Colloquium—A Snapshot of the Future: Virtual and Augmented Reality Training for Radiology"
 collection: publications
 permalink: /publication/2020-06-21-A-Snapshot-of-the-Future- Virtual-and-Augmented-Reality-Training-for-Radiology
 date: 2020-06-21
 venue: '2020 6th International Conference of the Immersive Learning Research Network (iLRN)'
 paperurl: 'https://www.researchgate.net/publication/342570637_A_Snapshot_of_the_Future_Virtual_and_Augmented_Reality_Training_for_Radiology'
-citation: 'X. Xu, E. Mangina, D. Kilroy, K. M. Curran, J. J. Healy and A. G. Campbell, &quot;Doctoral Colloquium: A Snapshot of the Future: Virtual and Augmented Reality Training for Radiology,&quot;<i>2020 6th International Conference of the Immersive Learning Research Network (iLRN)</i>, 2020, pp. 407-410, doi: 10.23919/iLRN47897.2020.9155131.'
+citation: 'X. Xu, E. Mangina, D. Kilroy, K. M. Curran, J. J. Healy and A. G. Campbell, "Doctoral Colloquium—A Snapshot of the Future: Virtual and Augmented Reality Training for Radiology," 2020 6th International Conference of the Immersive Learning Research Network (iLRN), San Luis Obispo, CA, USA, 2020, pp. 407-410, doi: 10.23919/iLRN47897.2020.9155131.'
 link: 'https://doi.org/10.23919/iLRN47897.2020.9155131'
 ---
 {% t publication.abstract %}
@@ -14,4 +14,4 @@ Advances in virtual immersive and augmented reality technology, commercially ava
 
 {% t publication.recommended_citation %}
 ------ 
-X. Xu, E. Mangina, D. Kilroy, K. M. Curran, J. J. Healy and A. G. Campbell, "Doctoral Colloquium: A Snapshot of the Future: Virtual and Augmented Reality Training for Radiology,"<i>2020 6th International Conference of the Immersive Learning Research Network (iLRN)</i>, 2020, pp. 407-410, doi: 10.23919/iLRN47897.2020.9155131.
+X. Xu, E. Mangina, D. Kilroy, K. M. Curran, J. J. Healy and A. G. Campbell, "Doctoral Colloquium—A Snapshot of the Future: Virtual and Augmented Reality Training for Radiology," 2020 6th International Conference of the Immersive Learning Research Network (iLRN), San Luis Obispo, CA, USA, 2020, pp. 407-410, doi: 10.23919/iLRN47897.2020.9155131.

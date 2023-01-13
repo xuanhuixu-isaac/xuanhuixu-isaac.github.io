@@ -1,11 +1,11 @@
 ---
-title: "Adapting-a-Virtual-Reality-Anatomy-Teaching-Tool-for-Mobility-Pilot-Study"
+title: "Work-in-Progress—Adapting a Virtual Reality Anatomy Teaching Tool for Mobility: Pilot Study"
 collection: publications
 permalink: /publication/2020-06-21-Adapting-a-Virtual-Reality-Anatomy-Teaching-Tool-for-Mobility-Pilot-Study
 date: 2020-06-21
 venue: '2020 6th International Conference of the Immersive Learning Research Network (iLRN)'
 paperurl: 'https://www.researchgate.net/publication/342570621_Adapting_a_Virtual_Reality_Anatomy_Teaching_Tool_for_Mobility_Pilot_Study'
-citation: 'X. Xu, D. Kilroy, E. Mangina and A. G. Campbell, &quot;Work-in-Progress-Adapting a Virtual Reality Anatomy Teaching Tool for Mobility: Pilot Study,&quot; <i>2020 6th International Conference of the Immersive Learning Research Network (iLRN)</i>, 2020, pp. 328-331, doi: 10.23919/iLRN47897.2020.9155137.'
+citation: 'X. Xu, D. Kilroy, E. Mangina and A. G. Campbell, "Work-in-Progress—Adapting a Virtual Reality Anatomy Teaching Tool for Mobility: Pilot Study," 2020 6th International Conference of the Immersive Learning Research Network (iLRN), San Luis Obispo, CA, USA, 2020, pp. 328-331, doi: 10.23919/iLRN47897.2020.9155137.'
 link: 'https://doi.org/10.23919/iLRN47897.2020.9155137'
 ---
 {% t publication.abstract %}
@@ -18,4 +18,4 @@ During the last decade, there has been an increase in the development of trainin
 
 {% t publication.recommended_citation %}
 ------ 
-X. Xu, D. Kilroy, E. Mangina and A. G. Campbell, "Work-in-Progress-Adapting a Virtual Reality Anatomy Teaching Tool for Mobility: Pilot Study," <i>2020 6th International Conference of the Immersive Learning Research Network (iLRN)</i>, 2020, pp. 328-331, doi: 10.23919/iLRN47897.2020.9155137.
+X. Xu, D. Kilroy, E. Mangina and A. G. Campbell, "Work-in-Progress—Adapting a Virtual Reality Anatomy Teaching Tool for Mobility: Pilot Study," 2020 6th International Conference of the Immersive Learning Research Network (iLRN), San Luis Obispo, CA, USA, 2020, pp. 328-331, doi: 10.23919/iLRN47897.2020.9155137.
