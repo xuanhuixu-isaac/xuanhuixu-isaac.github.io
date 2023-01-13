@@ -30,7 +30,7 @@
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.collection == 'publications' or post.collection == 'portfolio' %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-          {% if title contains "."%}
+          {% if title contains "titles."%}
             {% t post.title %}
           {% else %}
             {{ title }}
