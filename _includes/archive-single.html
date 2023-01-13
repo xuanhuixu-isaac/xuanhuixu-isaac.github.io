@@ -7,11 +7,11 @@
 {% endif %}
 
 
-<!-- {% if post.id %}
+{% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
   {% assign title = post.title %}
-{% endif %} -->
+{% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
@@ -29,11 +29,29 @@
 
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.collection == 'publications' or post.collection == 'portfolio' %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{% t post.title %}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+          {% if title contains "."%}
+            {% t post.title %}
+          {% else %}
+            {{ title }}
+          {% endif %}
+        </a>
       {% elsif post.link %}
-        <a href="{{ post.link }}">{% t post.title %}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}">
+          {% if title contains "."%}
+            {% t post.title %}
+          {% else %}
+            {{ title }}
+          {% endif %}
+        </a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{% t post.title %}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+          {% if title contains "."%}
+            {% t post.title %}
+          {% else %}
+            {{ title }}
+          {% endif %}
+        </a>
       {% endif %}
     </h2>
     
