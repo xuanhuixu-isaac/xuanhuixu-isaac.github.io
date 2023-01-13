@@ -1,11 +1,11 @@
 ---
 title: "How can the Additional Motion Parallax along the y and z-axis Affect Viewer’s 3D Perception?: A Generic Approach and Evaluation"
 collection: publications
-permalink: /publication/2022-10-19-How-can-the-Additional-Motion-Parallax-along-the-y-and-z-axis-Affect-Viewers-3D-Perception-A-Generic-Approach-and-Evaluation
+permalink: /publication/2022-10-19-How_can_the_Additional_Motion_Parallax_along_the_y_and_z-axis_Affect_Viewer&apos;s_3D_Perception_A_Generic_Approach_and_Evaluation
 date: 2022-10-19
 venue: '2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)'
-paperurl: 'https://www.researchgate.net/publication/366627295_How_can_the_Additional_Motion_Parallax_along_the_y_and_z-axis_Affect_Viewer's_3D_Perception_A_Generic_Approach_and_Evaluation'
-citation: 'X. Pan, M. Zheng, X. Xu, Z. Xu and A. G. Campbell, "How can the Additional Motion Parallax along the y and z-axis Affect Viewer’s 3D Perception?: A Generic Approach and Evaluation," 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Singapore, Singapore, 2022, pp. 252-259, doi: 10.1109/ISMAR55827.2022.00040.'
+paperurl: 'https://www.researchgate.net/publication/366627295_How_can_the_Additional_Motion_Parallax_along_the_y_and_z-axis_Affect_Viewer&apos;s_3D_Perception_A_Generic_Approach_and_Evaluation'
+citation: 'X. Pan, M. Zheng, X. Xu, Z. Xu and A. G. Campbell, "How can the Additional Motion Parallax along the y and z-axis Affect Viewer’s 3D Perception: A Generic Approach and Evaluation," 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Singapore, Singapore, 2022, pp. 252-259, doi: 10.1109/ISMAR55827.2022.00040.'
 link: 'https://doi.org/10.1109/ISMAR55827.2022.00040'
 ---
 {% t publication.abstract %}
