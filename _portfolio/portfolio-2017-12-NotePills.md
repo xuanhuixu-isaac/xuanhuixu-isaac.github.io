@@ -1,5 +1,7 @@
 ---
+layout: default
 title: "Note Pills"
+permalink: /portfolio/portfolio-2017-12-NotePills
 excerpt: "Forth year group project: a little android overlay note app<br/><img src='/images/NotePills.png' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>"
 date: 2017-12-03
 collection: portfolio
@@ -9,18 +11,78 @@ tags:
 pdf: "/files/Note Pills.pdf"
 ---
 
-Background
-======
-People nowadays use smartphones almost everyday. There have been applications developed to replace or simulate things in real life, a very common example is notebooks. There are notebook apps pre-installed on many smartphones, they are portable because people would always carry their phone with them. But they are not convenient. To take notes, users will have to write in its full-screen pages and cannot view other things on the phone. Therefore apps with floating notes were developed, they present the floating notes as floating windows and can be shown over other activities on the phone. This allows Users to keep notes when browsing other apps on their phone, e.g. when reading books in a reading app. But that can also make the screen messy when many floating notes are created. That is where this app was trying to deal with, in order to make an organizational floating notes.
+{% include base_path %}
 
-Introduction
-======
-The name of our project is Note Pills. It is a note application aiming to make note taking more convenient and organized. The core feature of the application is the floating window which provides a easy-to-access interface for users to write down ideas when they are using their mobile devices. Whenever an idea pops up in a user’s mind, it can be easily and quickly noted and stored to avoid loss of good ideas. Every idea is treated like a pill that cures the weakness of flashing memory.
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
 
-Unlike other apps featuring floating notes, Note Pills would only use one floating window which floats above all the other apps so users are able to make notes whenever they want. Also, the notes can be organized in groups, and users can select/create a group from the floating window to start with. The notes, instead of floating everywhere, are managed in a scrollable list view. Besides, users can also manage the groups of notes and view them as text messages inside the app. Together these designs have made Note Pills a very easy-to-use mobile app.
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
 
-Another character that makes Note Pills unique is that it doesn’t built for taking long-text notes. It’s called Note Pills (inspired from Idea Pills built within Smartisan OS) because it focuses on keeping notes of users’ instant thoughts. And these are usually short keywords but inspiring enough to be a reminder for the user. Thus each note is like a message shoveled into pills and put in a box, i.e. a group in this app. User can browse the group box to see which is the pill(note) he/she needs to take(remember). Apart from the text notes, users are provided with the option of creating voice notes. We believe this is a necessary function to be implemented, because voice notes save a lot of time and carry much more information than text contents. In addition, the voice note option makes Note Pills even more practical through providing a broader range of use cases.
+<div id="main" role="main">
+  {% include sidebar.html %}
 
-Individual Report
-======
-<iframe src="/files/Note Pills.pdf" width="100%" height="1000"></iframe>
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+
+    <div class="page__inner-wrap">
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <header>
+          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.read_time %}
+            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+          {% endif %}
+        </header>
+      {% endunless %}
+
+      <section class="page__content" itemprop="text">
+        {% if page.toc %}
+          <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'align-justify' }}"></i> {{ page.toc_label | default: site.translations[site.lang].UI.toc_label | default: "On this page" }}</h4></header>
+              {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
+            </nav>
+          </aside>
+        {% endif %}
+        {% tf _portfolio/portfolio-2017-12-NotePills.md %}
+        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.translations[site.lang].UI.ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+      </section>
+
+      <footer class="page__meta">
+        {% if site.translations[site.lang].UI.meta_label %}
+          <h4 class="page__meta-title">{{ site.translations[site.lang].UI.meta_label }}</h4>
+        {% endif %}
+        {% include page__taxonomy.html %}
+      </footer>
+
+      {% if page.share %}{% include social-share.html %}{% endif %}
+
+      {% include post_pagination.html %}
+    </div>
+
+    {% if site.comments.provider and page.comments %}
+      {% include comments.html %}
+    {% endif %}
+  </article>
+
+  {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
+  {% if page.id and page.related and site.related_posts.size > 0 %}
+    <div class="page__related">
+      {% if site.translations[site.lang].UI.related_label %}
+        <h4 class="page__related-title">{{ site.translations[site.lang].UI.related_label | default: "You May Also Enjoy" }}</h4>
+      {% endif %}
+      <div class="grid__wrapper">
+        {% for post in site.related_posts limit:3 %}
+          {% include archive-single.html type="grid" %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</div>

@@ -1,16 +1,3 @@
----
-title: "Comparison Between Augmented Reality and Mobile Virtual Reality in Anatomy Education"
-excerpt: "Master degree Final individual project: an pilot study<br/>"
-date: 2019-08-11
-collection: portfolio
-published: /publication/2020-06-21-Adapting-a-Virtual-Reality-Anatomy-Teaching-Tool-for-Mobility-Pilot-Study
-toc: true
-tags:
-  - research
-  - published
-pdf: "/files/Comparison Between Augmented Reality and Mobile Virtual Reality in Anatomy Education.pdf"
----
-
 Individual Project Prerequisites
 ======
 

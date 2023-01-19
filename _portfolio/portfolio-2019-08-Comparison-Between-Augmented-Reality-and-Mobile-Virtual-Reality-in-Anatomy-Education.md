@@ -1,14 +1,16 @@
 ---
 layout: default
-title: Test
-permalink: /portfolio/test
-excerpt: "test<br/><img src='/images/Mr.Gulp.png' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>"
-date: 2022-10-01
+title: "Comparison Between Augmented Reality and Mobile Virtual Reality in Anatomy Education"
+permalink: /portfolio/portfolio-2019-08-Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education
+excerpt: "Master degree Final individual project: an pilot study<br/>"
+date: 2019-08-11
 collection: portfolio
+published: /publication/2020-06-21-Adapting-a-Virtual-Reality-Anatomy-Teaching-Tool-for-Mobility-Pilot-Study
 toc: true
 tags:
- - game
- - java
+  - research
+  - published
+pdf: "/files/Comparison Between Augmented Reality and Mobile Virtual Reality in Anatomy Education.pdf"
 ---
 
 {% include base_path %}
@@ -51,7 +53,7 @@ tags:
             </nav>
           </aside>
         {% endif %}
-        {% tf _portfolio/portfolio-2022-01-test.md %}
+        {% tf _portfolio/portfolio-2019-08-Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education.md %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.translations[site.lang].UI.ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 

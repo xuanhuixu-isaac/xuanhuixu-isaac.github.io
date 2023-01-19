@@ -1,14 +1,3 @@
----
-title: "User Experience of VRChat on PC and VR Platform"
-excerpt: "Master degree Human Computer Interaction course group project: an empirical study<br/>"
-date: 2019-03-27
-collection: portfolio
-toc: true
-tags:
- - research
-pdf: "/files/User Experience of VRChat on PC and VR Platform.pdf"
----
-
 Background
 ======
 Virtual reality (VR) is a way of using technology to create environments designed for expressly human interaction. By wearing the VR headset, users are completely drawn into a whole new world which allows them to interact with their virtual environment in a way which is not possible using any other medium. VR headsets are supposed to be more interactive, engaging and pleasant way while connecting to the virtual world as compared to desktop.

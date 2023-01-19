@@ -1,14 +1,3 @@
----
-title: "Interfaith Tourist Guidance Using Augmented Reality at Sacred Religious Places"
-excerpt: "Master degree Human Computer Interaction course group project: a student design competition<br/>"
-date: 2019-04-26
-collection: portfolio
-toc: true
-tags:
- - research
-pdf: "/files/Interfaith Tourist Guidance Using Augmented Reality at Sacred Religious Places.pdf"
----
-
 Background
 ======
 Religious tourism is a form of tourism where tourists are interested to visit the place due to its religious importance; the concept as a term has emerged as a result of the understanding of tourists inspirations about such places. It has a long history that people are traveling to the sites which they are considering holy according to their beliefs and worship concepts. Therefore, religious tourism includes visiting local, regional, national or international pilgrimage centers, attending religious ceremonies, conferences and celebrations, and all other religious related meetings.

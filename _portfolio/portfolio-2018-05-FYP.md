@@ -1,5 +1,7 @@
 ---
+layout: default
 title: "Final Year Project (FYP) - Virtual Reality Canine Teaching Tool"
+permalink: /portfolio/portfolio-2018-05-FYP
 excerpt: "Final year project: a virtual reality tool to support veterinary education<br/><img src='/images/FYP.png' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>"
 date: 2018-05-12
 collection: portfolio
@@ -12,31 +14,78 @@ video: "https://youtu.be/Qn55bFj0F8E"
 pdf: "/files/FYP.pdf"
 ---
 
-Video
-======
-<iframe src='https://www.youtube.com/embed/Qn55bFj0F8E'></iframe>
+{% include base_path %}
 
-Project Specification
-======
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
 
-General Information
-------
-The project is to work with UCD School of Veterinary Medicine (David Kilroy in Anatomy) to develop a VR dog from MRI and CAT scans. You will be working within the UCD VR lab under Dr. Abraham Campbell and work with the VIVE VR system aswell as the Oculus Rift. The aim of the project is to develop a VR dog that potentially could be used for education purposes. As such UCD computer science Associated Professor Eleni Mangina will also mentor the project and aid the student in developing a VR learning object for the VR dog, this is a form of mark-up language to allow the model be used in a multitude of different VR learning environments.
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
 
-Core
-------
-* The student will develop a VR dog model .
-* This model allows for the separation of bones from the internal organs. The VR dog will be placed in a Immersive VR environment using the UCD CAVE using a VIVE .
-* The student will be given techniques developed in UCD and will research new technologies to achieve the goals of this project.
-* The student may use either Unity, another game engine or construct their own 3d VR engine using openGL. We assume the student will use Unity or another game engine for this project as we would not advise the student attempting to code a 3D engine from scratch. There are many open source tools available to help construct the 3D model, the project expects the student to explore which ones are the most suitable to use and it is not expected that the student would write their own volume render. 
-* The student will utilise Learning Objects' standards developed by Eleni Mangina for the 3D object created and will help contribute to research group on VR learning objects,
+<div id="main" role="main">
+  {% include sidebar.html %}
 
-Advanced
-------
-* The VR dog will be sufficiently modeled to allow for a mock exam to be performed.
-* The volume render is of sufficient quality that a virtual plane can be placed to cut across
-the model and allow a virtual MRI / X-Ray to be conducted.
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
 
-Report
-======
-<iframe src="/files/FYP.pdf" width="100%" height="1000"></iframe>
+    <div class="page__inner-wrap">
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <header>
+          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.read_time %}
+            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+          {% endif %}
+        </header>
+      {% endunless %}
+
+      <section class="page__content" itemprop="text">
+        {% if page.toc %}
+          <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'align-justify' }}"></i> {{ page.toc_label | default: site.translations[site.lang].UI.toc_label | default: "On this page" }}</h4></header>
+              {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
+            </nav>
+          </aside>
+        {% endif %}
+        {% tf _portfolio/portfolio-2018-05-FYP.md %}
+        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.translations[site.lang].UI.ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+      </section>
+
+      <footer class="page__meta">
+        {% if site.translations[site.lang].UI.meta_label %}
+          <h4 class="page__meta-title">{{ site.translations[site.lang].UI.meta_label }}</h4>
+        {% endif %}
+        {% include page__taxonomy.html %}
+      </footer>
+
+      {% if page.share %}{% include social-share.html %}{% endif %}
+
+      {% include post_pagination.html %}
+    </div>
+
+    {% if site.comments.provider and page.comments %}
+      {% include comments.html %}
+    {% endif %}
+  </article>
+
+  {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
+  {% if page.id and page.related and site.related_posts.size > 0 %}
+    <div class="page__related">
+      {% if site.translations[site.lang].UI.related_label %}
+        <h4 class="page__related-title">{{ site.translations[site.lang].UI.related_label | default: "You May Also Enjoy" }}</h4>
+      {% endif %}
+      <div class="grid__wrapper">
+        {% for post in site.related_posts limit:3 %}
+          {% include archive-single.html type="grid" %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</div>

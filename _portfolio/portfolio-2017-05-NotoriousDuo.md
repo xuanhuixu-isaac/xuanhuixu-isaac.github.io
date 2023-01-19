@@ -1,5 +1,7 @@
 ---
+layout: default
 title: "Notoruous Duo"
+permalink: /portfolio/portfolio-2017-05-NotoriousDuo
 excerpt: "Third year group project: a little Unity3D game<br/><img src='/images/NotoriousDuo.png' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>"
 date: 2017-05-24
 collection: portfolio
@@ -11,21 +13,78 @@ video: "https://youtu.be/AJHGBPGSVEg"
 pdf: "/files/Notorious Duo.pdf"
 ---
 
-Video
-======
-<iframe src="https://www.youtube.com/embed/AJHGBPGSVEg"></iframe>
+{% include base_path %}
 
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
 
-Background
-======
-Some people prefer a peaceful and quiet life, but Mr. X and his best partner, Ms. L may beg to differ. This notorious duo leads such a bold and wild life that they are always on the top-wanted list. And now a new-built vault has drawn their attention...
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
 
-Introduction
-======
-Our project "The Notorious Duo" is a PC game featuring dual-player system. The game  is split into two sides, one player interacts with the 3D game scene (R5) and the other 
-interacts with the 2D game scene(R6). 3D player controls Mr. X who is a really talent burglar to get into the vault, breaking the maze and collecting information. 2D player 
-controls Ms. L who is skilled at tablets and network. She has the power to hack into nearly any system. So this time, players get all the message they want, solving the quiz, figuring out the password, helping Mr. X from the other side of the world.
+<div id="main" role="main">
+  {% include sidebar.html %}
 
-Report
-======
-<iframe src="/files/Notorious Duo.pdf" width="100%" height="1000"></iframe>
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+
+    <div class="page__inner-wrap">
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <header>
+          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.read_time %}
+            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+          {% endif %}
+        </header>
+      {% endunless %}
+
+      <section class="page__content" itemprop="text">
+        {% if page.toc %}
+          <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'align-justify' }}"></i> {{ page.toc_label | default: site.translations[site.lang].UI.toc_label | default: "On this page" }}</h4></header>
+              {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
+            </nav>
+          </aside>
+        {% endif %}
+        {% tf _portfolio/portfolio-2017-05-NotoriousDuo.md %}
+        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.translations[site.lang].UI.ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+      </section>
+
+      <footer class="page__meta">
+        {% if site.translations[site.lang].UI.meta_label %}
+          <h4 class="page__meta-title">{{ site.translations[site.lang].UI.meta_label }}</h4>
+        {% endif %}
+        {% include page__taxonomy.html %}
+      </footer>
+
+      {% if page.share %}{% include social-share.html %}{% endif %}
+
+      {% include post_pagination.html %}
+    </div>
+
+    {% if site.comments.provider and page.comments %}
+      {% include comments.html %}
+    {% endif %}
+  </article>
+
+  {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
+  {% if page.id and page.related and site.related_posts.size > 0 %}
+    <div class="page__related">
+      {% if site.translations[site.lang].UI.related_label %}
+        <h4 class="page__related-title">{{ site.translations[site.lang].UI.related_label | default: "You May Also Enjoy" }}</h4>
+      {% endif %}
+      <div class="grid__wrapper">
+        {% for post in site.related_posts limit:3 %}
+          {% include archive-single.html type="grid" %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</div>

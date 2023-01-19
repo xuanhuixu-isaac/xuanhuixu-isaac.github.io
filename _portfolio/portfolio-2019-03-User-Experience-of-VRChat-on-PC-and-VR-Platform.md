@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Test
-permalink: /portfolio/test
-excerpt: "test<br/><img src='/images/Mr.Gulp.png' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>"
-date: 2022-10-01
+title: "User Experience of VRChat on PC and VR Platform"
+permalink: /portfolio/portfolio-2019-03-User-Experience-of-VRChat-on-PC-and-VR-Platform
+excerpt: "Master degree Human Computer Interaction course group project: an empirical study<br/>"
+date: 2019-03-27
 collection: portfolio
 toc: true
 tags:
- - game
- - java
+ - research
+pdf: "/files/User Experience of VRChat on PC and VR Platform.pdf"
 ---
 
 {% include base_path %}
@@ -51,7 +51,7 @@ tags:
             </nav>
           </aside>
         {% endif %}
-        {% tf _portfolio/portfolio-2022-01-test.md %}
+        {% tf _portfolio/portfolio-2019-03-User-Experience-of-VRChat-on-PC-and-VR-Platform.md %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.translations[site.lang].UI.ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
