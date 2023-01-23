@@ -50,6 +50,19 @@ titles:
   portfolio        : "Portfolio"
   posts            : "Blog posts"
   cv               : "CV"
+  portfolios       :
+    MrGulp                                                                               : "Mr.Gulp"
+    Notoruous_Duo                                                                        : "Notoruous Duo"
+    Note_Pills                                                                           : "Note Pills"
+    GWAP                                                                                 : "Game With A Purpose (GWAP) - Doodle Knight"
+    FYP                                                                                  : "Final Year Project (FYP) - Virtual Reality Canine Teaching Tool"
+    Egg_Collectors                                                                       : "Egg Collectors"
+    User_Experience_of_VRChat_on_PC_and_VR_Platform                                      : "User Experience of VRChat on PC and VR Platform"
+    Drone_Destoryer                                                                      : "Drone Destoryer"
+    Enhance-Virtual-Reality-User-Experience                                              : "Enhance Virtual Reality User Experience"
+    Interfaith-Tourist-Guidance-Using-Augmented-Reality-at-Sacred-Religious-Places       : "Interfaith Tourist Guidance Using Augmented Reality at Sacred Religious Places"
+    Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education : "Comparison Between Augmented Reality and Mobile Virtual Reality in Anatomy Education"
+    test                                                                                 : "test"
 
 publication:
   abstract                   : "Abstract"

@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Comparison Between Augmented Reality and Mobile Virtual Reality in Anatomy Education"
+title: titles.portfolios.Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education
+title_code: Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education
 permalink: /portfolio/portfolio-2019-08-Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education
 excerpt: "Master degree Final individual project: an pilot study<br/>"
 date: 2019-08-11
 collection: portfolio
 published: /publication/2020-06-21-Adapting-a-Virtual-Reality-Anatomy-Teaching-Tool-for-Mobility-Pilot-Study
-toc: true
 tags:
   - research
   - published
@@ -37,9 +37,17 @@ pdf: "/files/Comparison Between Augmented Reality and Mobile Virtual Reality in 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.title %}<h1 class="page__title" itemprop="headline">{% t page.title %}</h1>{% endif %}
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+          {% endif %}
+
+          {% if page.date %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.translations[site.lang].UI.date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
+              {% if page.published %}
+                <a href="{{ base_path }}{{page.published}}">({% t publication.published%})</a>
+              {% endif %}
+            </p>
           {% endif %}
         </header>
       {% endunless %}

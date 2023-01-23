@@ -9,10 +9,16 @@
 {% if page.title %}
   {% if page.header %}
     {% assign seo_title = site.translations[site.lang].titles.[page.header]| append: " " | append: site.title_separator | append: " " | append: site.translations[site.lang].title %}
+  {% elsif page.collection == 'portfolio' %}
+    {% assign seo_title = site.translations[site.lang].titles.portfolios.[page.title_code] | append: " " | append: site.title_separator | append: " " | append: site.translations[site.lang].title %}
   {% else %}
     {% assign seo_title = page.title| append: " " | append: site.title_separator | append: " " | append: site.translations[site.lang].title %}
   {% endif %}
 {% endif %}
+
+<!-- {% if page.collection == 'portfolio' %}
+  {% assign seo_title = site.translations[site.lang].titles.portfolios.[page.title_code] | append: " " | append: site.title_separator | append: " " | append: site.translations[site.lang].title %}
+{% endif %} -->
 
 {% if seo_title %}
   {% assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once %}

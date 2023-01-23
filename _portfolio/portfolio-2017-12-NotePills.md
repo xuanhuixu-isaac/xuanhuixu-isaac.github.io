@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Note Pills"
+title: titles.portfolios.Note_Pills
+title_code: Note_Pills
 permalink: /portfolio/portfolio-2017-12-NotePills
 excerpt: "Forth year group project: a little android overlay note app<br/><img src='/images/NotePills.png' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>"
 date: 2017-12-03
 collection: portfolio
-toc: true
 tags:
  - android
 pdf: "/files/Note Pills.pdf"
@@ -35,9 +35,17 @@ pdf: "/files/Note Pills.pdf"
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.title %}<h1 class="page__title" itemprop="headline">{% t page.title %}</h1>{% endif %}
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+          {% endif %}
+
+          {% if page.date %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.translations[site.lang].UI.date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
+              {% if page.published %}
+                <a href="{{ base_path }}{{page.published}}">({% t publication.published%})</a>
+              {% endif %}
+            </p>
           {% endif %}
         </header>
       {% endunless %}

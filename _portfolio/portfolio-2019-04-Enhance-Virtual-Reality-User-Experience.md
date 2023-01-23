@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Enhance Virtual Reality User Experience"
+title: titles.portfolios.Enhance-Virtual-Reality-User-Experience
+title_code: Enhance-Virtual-Reality-User-Experience
 permalink: /portfolio/portfolio-2019-04-Enhance-Virtual-Reality-User-Experience
 excerpt: "Master degree Human Computer Interaction course Individual Essay in HCI: Interaction Techniques, Devices, and Modalities”<br/>"
 date: 2019-04-22
 collection: portfolio
-toc: true
 tags:
  - research
 pdf: "/files/Enhance Virtual Reality User Experience.pdf"
@@ -35,9 +35,17 @@ pdf: "/files/Enhance Virtual Reality User Experience.pdf"
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.title %}<h1 class="page__title" itemprop="headline">{% t page.title %}</h1>{% endif %}
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+          {% endif %}
+
+          {% if page.date %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.translations[site.lang].UI.date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
+              {% if page.published %}
+                <a href="{{ base_path }}{{page.published}}">({% t publication.published%})</a>
+              {% endif %}
+            </p>
           {% endif %}
         </header>
       {% endunless %}

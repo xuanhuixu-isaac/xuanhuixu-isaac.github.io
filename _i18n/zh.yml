@@ -50,6 +50,20 @@ titles:
   portfolio        : "资料夹"
   posts            : "博客"
   cv               : "简历"
+  portfolios       :
+    MrGulp                      : "吞噬先生"
+    Notoruous_Duo               : "恶名昭著的二人组"
+    Note_Pills                                                                           : "笔记胶囊"
+    GWAP                                                                                 : "带有目的的游戏(GWAP) - 涂鸦骑士"
+    FYP                                                                                  : "本科毕设项目 (FYP) - 虚拟现实犬类解剖学教学工具"
+    Egg_Collectors                                                                       : "收蛋人"
+    User_Experience_of_VRChat_on_PC_and_VR_Platform                                      : "PC平台与VR平台VRChat的用户体验"
+    Drone_Destoryer                                                                      : "无人机毁灭者"
+    Enhance-Virtual-Reality-User-Experience                                              : "增强虚拟现实的用户体验"
+    Interfaith-Tourist-Guidance-Using-Augmented-Reality-at-Sacred-Religious-Places       : "在宗教圣地使用增强现实进行宗教间旅游指导"
+    Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education : "比较增强现实与移动虚拟现实在解剖学教育中的应用"
+    test                                                                                 : "测试"
+
 
 publication:
   abstract                   : "摘要"

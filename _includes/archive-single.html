@@ -142,6 +142,10 @@
         </p>
       </p>
     {% endif %}
-    
+
+    {% if post.image %}
+    <br/><img src='/images/{{ post.image }}' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>
+    {% endif %}
+
   </article>
 </div>

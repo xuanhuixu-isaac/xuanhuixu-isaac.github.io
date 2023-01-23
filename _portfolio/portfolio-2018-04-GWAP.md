@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Game With A Purpose (GWAP) -Doodle Knight"
+title: titles.portfolios.GWAP
+title_code: GWAP
 permalink: /portfolio/portfolio-2018-04-GWAP
 excerpt: "Forth year group project: a game with purpose game design<br/><img src='/images/DoodleKnight.png' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>"
 date: 2018-04-11
 collection: portfolio
-toc: true
 tags:
  - research
 video: "https://youtu.be/g2K9TmxJ-Hg"
@@ -36,9 +36,17 @@ pdf: "/files/GWAP.pdf"
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.title %}<h1 class="page__title" itemprop="headline">{% t page.title %}</h1>{% endif %}
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+          {% endif %}
+
+          {% if page.date %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.translations[site.lang].UI.date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
+              {% if page.published %}
+                <a href="{{ base_path }}{{page.published}}">({% t publication.published%})</a>
+              {% endif %}
+            </p>
           {% endif %}
         </header>
       {% endunless %}
