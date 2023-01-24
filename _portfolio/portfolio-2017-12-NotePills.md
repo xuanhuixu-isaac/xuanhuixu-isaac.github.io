@@ -3,12 +3,13 @@ layout: default
 title: titles.portfolios.Note_Pills
 title_code: Note_Pills
 permalink: /portfolio/portfolio-2017-12-NotePills
-excerpt: "Forth year group project: a little android overlay note app<br/><img src='/images/NotePills.png' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>"
+excerpt: portfolios_excerpt.Note_Pills
 date: 2017-12-03
 collection: portfolio
 tags:
  - android
 pdf: "/files/Note Pills.pdf"
+image: NotePills.png
 ---
 
 {% include base_path %}

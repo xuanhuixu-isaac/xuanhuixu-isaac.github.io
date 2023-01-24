@@ -3,7 +3,7 @@ layout: default
 title: titles.portfolios.FYP
 title_code: FYP
 permalink: /portfolio/portfolio-2018-05-FYP
-excerpt: "Final year project: a virtual reality tool to support veterinary education<br/><img src='/images/FYP.png' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>"
+excerpt: portfolios_excerpt.FYP
 date: 2018-05-12
 collection: portfolio
 published: /publication/2018-08-15-Delaying-when-all-dogs-to-go-to-heaven-virtual-reality-canine-anatomy-education-pilot-study
@@ -12,6 +12,7 @@ tags:
  - published
 video: "https://youtu.be/Qn55bFj0F8E"
 pdf: "/files/FYP.pdf"
+image: FYP.png
 ---
 
 {% include base_path %}

@@ -5,7 +5,12 @@ permalink: /portfolio/
 author_profile: true
 header: portfolio
 ---
-
+<div id="modal01" class="modal" onclick="this.style.display='none'">
+  <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  <div class="modal-content">
+    <img id="img01" style="max-width:100%">
+  </div>
+</div>
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.portfolio reversed %}

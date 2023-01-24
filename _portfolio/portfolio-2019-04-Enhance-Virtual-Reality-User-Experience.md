@@ -3,7 +3,7 @@ layout: default
 title: titles.portfolios.Enhance-Virtual-Reality-User-Experience
 title_code: Enhance-Virtual-Reality-User-Experience
 permalink: /portfolio/portfolio-2019-04-Enhance-Virtual-Reality-User-Experience
-excerpt: "Master degree Human Computer Interaction course Individual Essay in HCI: Interaction Techniques, Devices, and Modalities”<br/>"
+excerpt: portfolios_excerpt.Enhance-Virtual-Reality-User-Experience
 date: 2019-04-22
 collection: portfolio
 tags:

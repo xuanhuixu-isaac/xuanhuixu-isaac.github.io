@@ -3,7 +3,7 @@ layout: default
 title: titles.portfolios.User_Experience_of_VRChat_on_PC_and_VR_Platform
 title_code: User_Experience_of_VRChat_on_PC_and_VR_Platform
 permalink: /portfolio/portfolio-2019-03-User-Experience-of-VRChat-on-PC-and-VR-Platform
-excerpt: "Master degree Human Computer Interaction course group project: an empirical study<br/>"
+excerpt: portfolios_excerpt.User_Experience_of_VRChat_on_PC_and_VR_Platform
 date: 2019-03-27
 collection: portfolio
 tags:

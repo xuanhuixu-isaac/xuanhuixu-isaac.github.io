@@ -3,12 +3,13 @@ layout: default
 title: titles.portfolios.MrGulp
 title_code: MrGulp
 permalink: /portfolio/portfolio-2016-04-MrGulp
-excerpt: "Second year group project: a little Java game<br/><img src='/images/Mr.Gulp.png' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>"
+excerpt: portfolios_excerpt.MrGulp
 date: 2016-04-20
 collection: portfolio
 tags:
  - game
  - java
+image: Mr.Gulp.png
 ---
 
 {% include base_path %}

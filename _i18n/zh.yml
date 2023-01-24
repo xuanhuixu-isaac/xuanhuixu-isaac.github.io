@@ -64,6 +64,20 @@ titles:
     Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education : "比较增强现实与移动虚拟现实在解剖学教育中的应用"
     test                                                                                 : "测试"
 
+portfolios_excerpt:
+  MrGulp                                                                               : "二年级小组项目：Java 小游戏e"
+  Notoruous_Duo                                                                        : "三年级小组项目：Unity3D小游戏"
+  Note_Pills                                                                           : "第四年小组项目：一个小的 android 覆盖笔记应用程序"
+  GWAP                                                                                 : "第四年小组项目：有目的的游戏设计"
+  FYP                                                                                  : "最后一年的项目：支持兽医教育的虚拟现实工具"
+  Egg_Collectors                                                                       : "硕士游戏开发课程个人项目"
+  User_Experience_of_VRChat_on_PC_and_VR_Platform                                      : "硕士人机交互课程小组项目：一项实证研究"
+  Drone_Destoryer                                                                      : "硕士游戏开发课程个人项目"
+  Enhance-Virtual-Reality-User-Experience                                              : "人机交互硕士课程人机交互个人论文：交互技术、设备和模式"
+  Interfaith-Tourist-Guidance-Using-Augmented-Reality-at-Sacred-Religious-Places       : "硕士人机交互课程小组项目：学生设计竞赛"
+  Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education : "硕士学位最终个人项目：试点研究"
+  test                                                                                 : "测试"
+
 
 publication:
   abstract                   : "摘要"

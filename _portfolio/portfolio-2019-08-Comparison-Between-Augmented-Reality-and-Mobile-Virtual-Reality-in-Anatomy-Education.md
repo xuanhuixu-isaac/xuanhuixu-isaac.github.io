@@ -3,7 +3,7 @@ layout: default
 title: titles.portfolios.Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education
 title_code: Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education
 permalink: /portfolio/portfolio-2019-08-Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education
-excerpt: "Master degree Final individual project: an pilot study<br/>"
+excerpt: portfolios_excerpt.Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education
 date: 2019-08-11
 collection: portfolio
 published: /publication/2020-06-21-Adapting-a-Virtual-Reality-Anatomy-Teaching-Tool-for-Mobility-Pilot-Study

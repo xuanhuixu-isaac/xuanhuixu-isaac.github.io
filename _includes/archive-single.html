@@ -54,6 +54,12 @@
         </a>
       {% endif %}
     </h2>
+
+    {% if post.image %}
+    <aside class="sidebar__right">
+      <img src='/images/{{ post.image }}' width='100%' style='display: block; margin-left: auto; margin-right: auto; margin-top: auto'>
+    </aside>
+    {% endif %}
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
@@ -132,7 +138,7 @@
         </a>
       </p>
     {% elsif post.excerpt and site.read_more != 'enabled' and post.collection != 'publications'%}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    <p class="archive__item-excerpt" itemprop="description">{% t post.excerpt %}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description">
         <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
@@ -143,9 +149,11 @@
       </p>
     {% endif %}
 
-    {% if post.image %}
+    <!-- {% if post.image %}
     <br/><img src='/images/{{ post.image }}' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>
-    {% endif %}
-
+    {% endif %} -->
+    
   </article>
+
+  
 </div>

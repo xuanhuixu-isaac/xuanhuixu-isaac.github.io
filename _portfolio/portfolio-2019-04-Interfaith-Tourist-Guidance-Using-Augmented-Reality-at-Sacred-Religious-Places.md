@@ -3,7 +3,7 @@ layout: default
 title: titles.portfolios.Interfaith-Tourist-Guidance-Using-Augmented-Reality-at-Sacred-Religious-Places
 title_code: Interfaith-Tourist-Guidance-Using-Augmented-Reality-at-Sacred-Religious-Places
 permalink: /portfolio/portfolio-2019-04-Interfaith-Tourist-Guidance-Using-Augmented-Reality-at-Sacred-Religious-Places
-excerpt: "Master degree Human Computer Interaction course group project: a student design competition<br/>"
+excerpt: portfolios_excerpt.Interfaith-Tourist-Guidance-Using-Augmented-Reality-at-Sacred-Religious-Places
 date: 2019-04-26
 collection: portfolio
 tags:

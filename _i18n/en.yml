@@ -50,7 +50,7 @@ titles:
   portfolio        : "Portfolio"
   posts            : "Blog posts"
   cv               : "CV"
-  portfolios       :
+  portfolios:
     MrGulp                                                                               : "Mr.Gulp"
     Notoruous_Duo                                                                        : "Notoruous Duo"
     Note_Pills                                                                           : "Note Pills"
@@ -63,6 +63,21 @@ titles:
     Interfaith-Tourist-Guidance-Using-Augmented-Reality-at-Sacred-Religious-Places       : "Interfaith Tourist Guidance Using Augmented Reality at Sacred Religious Places"
     Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education : "Comparison Between Augmented Reality and Mobile Virtual Reality in Anatomy Education"
     test                                                                                 : "test"
+
+portfolios_excerpt:
+  MrGulp                                                                               : "Second year group project: a little Java game"
+  Notoruous_Duo                                                                        : "Third year group project: a little Unity3D game"
+  Note_Pills                                                                           : "Forth year group project: a little android overlay note app"
+  GWAP                                                                                 : "Forth year group project: a game with purpose game design"
+  FYP                                                                                  : "Final year project: a virtual reality tool to support veterinary education"
+  Egg_Collectors                                                                       : "Master degree game development course individual project"
+  User_Experience_of_VRChat_on_PC_and_VR_Platform                                      : "Master degree Human Computer Interaction course group project: an empirical study"
+  Drone_Destoryer                                                                      : "Master degree game development course individual project"
+  Enhance-Virtual-Reality-User-Experience                                              : "Master degree Human Computer Interaction course Individual Essay in HCI: Interaction Techniques, Devices, and Modalities"
+  Interfaith-Tourist-Guidance-Using-Augmented-Reality-at-Sacred-Religious-Places       : "Master degree Human Computer Interaction course group project: a student design competition"
+  Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education : "Master degree Final individual project: a pilot study"
+  test                                                                                 : "test"
+
 
 publication:
   abstract                   : "Abstract"

@@ -3,13 +3,14 @@ layout: default
 title: titles.portfolios.GWAP
 title_code: GWAP
 permalink: /portfolio/portfolio-2018-04-GWAP
-excerpt: "Forth year group project: a game with purpose game design<br/><img src='/images/DoodleKnight.png' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>"
+excerpt: portfolios_excerpt.GWAP
 date: 2018-04-11
 collection: portfolio
 tags:
  - research
 video: "https://youtu.be/g2K9TmxJ-Hg"
 pdf: "/files/GWAP.pdf"
+image: DoodleKnight.png
 ---
 
 {% include base_path %}

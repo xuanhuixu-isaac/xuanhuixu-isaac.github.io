@@ -3,7 +3,7 @@ layout: default
 title: titles.portfolios.Egg_Collectors
 title_code: Egg_Collectors
 permalink: /portfolio/portfolio-2019-03-EggCollectors
-excerpt: "Master degree game development course individual project<br/><img src='/images/EggCollectors.png' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>"
+excerpt: portfolios_excerpt.Egg_Collectors
 date: 2019-03-02
 collection: portfolio
 tags:
@@ -11,6 +11,7 @@ tags:
  - GameMaker
 video: "https://youtu.be/w4N1ribeIys"
 pdf: "/files/EggCollectors.pdf"
+image: EggCollectors.png
 ---
 
 {% include base_path %}

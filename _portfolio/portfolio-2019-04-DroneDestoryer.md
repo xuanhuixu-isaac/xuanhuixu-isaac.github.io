@@ -3,7 +3,7 @@ layout: default
 title: titles.portfolios.Drone_Destoryer
 title_code: Drone_Destoryer
 permalink: /portfolio/portfolio-2019-04-DroneDestoryer
-excerpt: "Master degree game development course individual project<br/><img src='/images/DroneDestoryer.png' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>"
+excerpt: portfolios_excerpt.Drone_Destoryer
 date: 2019-04-13
 collection: portfolio
 tags:
@@ -11,6 +11,7 @@ tags:
  - Unity
 video: "https://youtu.be/_dTWPRyGPQA"
 pdf: "/files/DroneDestoryer.pdf"
+image: DroneDestoryer.png
 ---
 
 {% include base_path %}

@@ -3,12 +3,13 @@ layout: default
 title: titles.portfolios.test
 title_code: test
 permalink: /portfolio/test
+excerpt: portfolios_excerpt.test
 date: 2022-10-01
 collection: portfolio
-image: Mr.Gulp.png
 tags:
  - game
  - java
+image: Vet2022Teaser.png
 ---
 
 {% include base_path %}

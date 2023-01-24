@@ -3,7 +3,7 @@ layout: default
 title: titles.portfolios.Notoruous_Duo
 title_code: Notoruous_Duo
 permalink: /portfolio/portfolio-2017-05-NotoriousDuo
-excerpt: "Third year group project: a little Unity3D game<br/><img src='/images/NotoriousDuo.png' width='80%' style='display: block; margin-left: auto; margin-right: auto; margin-top: 20px'>"
+excerpt: portfolios_excerpt.Notoruous_Duo
 date: 2017-05-24
 collection: portfolio
 tags:
@@ -11,6 +11,7 @@ tags:
  - Unity
 video: "https://youtu.be/AJHGBPGSVEg"
 pdf: "/files/Notorious Duo.pdf"
+image: NotoriousDuo.png
 ---
 
 {% include base_path %}
