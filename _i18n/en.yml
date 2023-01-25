@@ -65,17 +65,71 @@ titles:
     test                                                                                 : "test"
 
 portfolios_excerpt:
-  MrGulp                                                                               : "Second year group project: a little Java game"
-  Notoruous_Duo                                                                        : "Third year group project: a little Unity3D game"
-  Note_Pills                                                                           : "Forth year group project: a little android overlay note app"
-  GWAP                                                                                 : "Forth year group project: a game with purpose game design"
-  FYP                                                                                  : "Final year project: a virtual reality tool to support veterinary education"
-  Egg_Collectors                                                                       : "Master degree game development course individual project"
-  User_Experience_of_VRChat_on_PC_and_VR_Platform                                      : "Master degree Human Computer Interaction course group project: an empirical study"
-  Drone_Destoryer                                                                      : "Master degree game development course individual project"
-  Enhance-Virtual-Reality-User-Experience                                              : "Master degree Human Computer Interaction course Individual Essay in HCI: Interaction Techniques, Devices, and Modalities"
-  Interfaith-Tourist-Guidance-Using-Augmented-Reality-at-Sacred-Religious-Places       : "Master degree Human Computer Interaction course group project: a student design competition"
-  Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education : "Master degree Final individual project: a pilot study"
+  MrGulp                                                                               : >
+                                                                                        Bachelor's degree second-year group project.<br/>
+                                                                                        The very first time used Java to make a game.<br/>
+                                                                                        Responsibility: team leader, UI (Java Swing), art, programming time-limited mode, debugging, and merging the program.
+  Notoruous_Duo                                                                        : >
+                                                                                        Bachelor's degree third-year group project.<br/>
+                                                                                        Using Unity3D Game Engine to create an asymmetrical duo-player collaboration puzzle game.<br/>
+                                                                                        Responsibility: team leader, main programmer, game planning, UI, art&modelling, debugging, and merging the program.
+  Note_Pills                                                                           : >
+                                                                                        Bachelor's degree forth year group project.<br/>
+                                                                                        Create an Android App.<br/>
+                                                                                        Responsibility: literature review, UI, art, and layout programming.
+  GWAP                                                                                 : >
+                                                                                        Bachelor's degree forth year group project.<br/>
+                                                                                        Design a game with a purpose.<br/>
+                                                                                        Responsibility: literature review, prototyping, creating video, making slides, and presentation.
+  FYP                                                                                  : >
+                                                                                        Bachelor's degree final year project.<br/>
+                                                                                        The project is to work with UCD School of Veterinary Medicine (David Kilroy in Anatomy) to develop a VR dog from MRI and CAT scans.
+                                                                                        You will be working within the UCD VR lab under Dr. Abraham Campbell and work with the VIVE VR system aswell as the Oculus Rift.
+                                                                                        The aim of the project is to develop a VR dog that potentially could be used for education purposes.
+                                                                                        As such UCD computer science Associated Professor Eleni Mangina will also mentor the project and aid the student in developing a VR learning object for the VR dog, 
+                                                                                        this is a form of mark-up language to allow the model be used in a multitude of different VR learning environments.<br/>
+                                                                                        Responsibility: literatiure review, medical data processing, 3D model processing, VR development, Shader programming, experiment design, experimenter, data collection and analysis, presentation, and paper writing.
+  Egg_Collectors                                                                       : >
+                                                                                        Master's degree game development course individual project - 1.<br/>
+                                                                                        Use GameMaker (free trial version) to develop a 2-dimensional game for laptop.<br/>
+                                                                                        Responsibility: learning GameMaker programming language, game planning, game development, art, animation, audio, and making video.
+  User_Experience_of_VRChat_on_PC_and_VR_Platform                                      : >
+                                                                                        Master's degree Human Computer Interaction course group project.<br/>
+                                                                                        Design a controlled experiment to test the role of a specific factors (e.g. the input modality, interface etc.) in a human computer interaction.<br/>
+                                                                                        Responsibility: experiment design, main experimenter, data collection, data processing, data visualisation and analysis, report writing, and presentation.
+  Drone_Destoryer                                                                      : >
+                                                                                        Master's degree game development course individual project - 2.<br/>
+                                                                                        Use Unity3D to develop a 3-dimensional game for laptop.<br/>
+                                                                                        Responsibility: game planning, game development, UI, art&modelling, and making video.
+  Enhance-Virtual-Reality-User-Experience                                              : >
+                                                                                        Master's degree Human Computer Interaction course Individual Essay in HCI: Interaction Techniques, Devices, and Modalities.<br/>
+                                                                                        Human Computer Interaction (HCI) is a broad discipline and often involves collaboration by researchers and practitioners across many fields including computer science, 
+                                                                                        psychology, engineering, design and social science.
+                                                                                        The inter-disciplinary nature of HCI is reflected in the literature and also in the structure of the major international conference in the field – the ACM 
+                                                                                        Conference on Human Factors in Computing Systems (ACM CHI). 
+                                                                                        ACM CHI is one of the largest and most highly cited publication venues in all of Computer Science. Diversity is one of its great strengths.
+                                                                                        When authors submit a paper to ACM CHI they are required to select a subcommittee. 
+                                                                                        Some subcommittees are very technically focused (e.g. Engineering Interactive Systems and Technologies). 
+                                                                                        Others are more focused on human understanding (e.g. Understanding People: Theory, Concepts, Methods) 
+                                                                                        and on the application of new technology in domains such as health care (e.g. Health, Accessibility and Aging).<br/>
+                                                                                        Responsibility: literature review, paper writing.
+  Interfaith-Tourist-Guidance-Using-Augmented-Reality-at-Sacred-Religious-Places       : >
+                                                                                        Master's degree Human Computer Interaction course group project: a student design competition.<br/>
+                                                                                        Teams may present either a concept (a clear, detailed design specification that can be taken to prototype), or a fully realized prototype.
+                                                                                        Either way, teams must clearly illustrate their design decisions and demonstrate the design processes that have been followed.<br/>
+                                                                                        Responsibility: concept design, making prototype teaser and video, experiment design, presentation.
+  Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education : >
+                                                                                        Master's degree Final individual project: a pilot study.<br/>
+                                                                                        The main aim of the project is to compare the learning experience between mobile AR and mobile immersive AR. 
+                                                                                        By converting current UCD fixed VR experience into the mobile immersive environment user experience, the comparison between those two becomes possible. 
+                                                                                        The following objectives will be completed to achieve this aim:
+                                                                                        1. Convert veterinary lab application based on the PC platform into Android platforms and adjust the features and functions to adapt to 
+                                                                                        the mobile environment by using ARCore SDK or Vuforia SDK.
+                                                                                        2. Create an image target anchor to achieve the information shared between multiple devices. 
+                                                                                        Furthermore, if capable, development world anchor or cloud anchor to implement this feature.
+                                                                                        3. Design an experiment about comparing the efficiency of using two different mobile AR devices and get the outputs to do the analysation for the results. 
+                                                                                        The project would including a review of existing literature related the use of AR and immersive AR in education before the starting the creation of the AR/ Immersive AR applications.<br/>
+                                                                                        Responsibility: literatiure review, 3D model processing, VR development, AR development, experiment design, experimenter, data collection and analysis, and paper writing.
   test                                                                                 : "test"
 
 

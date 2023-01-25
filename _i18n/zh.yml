@@ -65,17 +65,65 @@ titles:
     test                                                                                 : "测试"
 
 portfolios_excerpt:
-  MrGulp                                                                               : "二年级小组项目：Java 小游戏e"
-  Notoruous_Duo                                                                        : "三年级小组项目：Unity3D小游戏"
-  Note_Pills                                                                           : "第四年小组项目：一个小的 android 覆盖笔记应用程序"
-  GWAP                                                                                 : "第四年小组项目：有目的的游戏设计"
-  FYP                                                                                  : "最后一年的项目：支持兽医教育的虚拟现实工具"
-  Egg_Collectors                                                                       : "硕士游戏开发课程个人项目"
-  User_Experience_of_VRChat_on_PC_and_VR_Platform                                      : "硕士人机交互课程小组项目：一项实证研究"
-  Drone_Destoryer                                                                      : "硕士游戏开发课程个人项目"
-  Enhance-Virtual-Reality-User-Experience                                              : "人机交互硕士课程人机交互个人论文：交互技术、设备和模式"
-  Interfaith-Tourist-Guidance-Using-Augmented-Reality-at-Sacred-Religious-Places       : "硕士人机交互课程小组项目：学生设计竞赛"
-  Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education : "硕士学位最终个人项目：试点研究"
+  MrGulp                                                                               : >
+                                                                                        本科第二年小组项目。<br/>
+                                                                                        首次运用Java制作小游戏。<br/>
+                                                                                        主要职责：组长，UI（Java Swing），美术，限时模式编程，Debug，整合项目。
+  Notoruous_Duo                                                                        : >
+                                                                                        本科第三年小组项目。<br/>
+                                                                                        运用Unity3D游戏引擎制作不对称双人合作解密游戏。<br/>
+                                                                                        主要职责：组长，游戏主程，游戏关卡策划，UI，美术&建模，Debug，整合项目。
+  Note_Pills                                                                           : >
+                                                                                        本科第四年小组项目。<br/>
+                                                                                        制作一款安卓App。<br/>
+                                                                                        主要职责：文献综述，UI，美术，布局编程。
+  GWAP                                                                                 : >
+                                                                                        本科第四年小组项目。<br/>
+                                                                                        设计一个带有目的性的游戏。<br/>
+                                                                                        主要职责：文献综述，作品原型设计，视频制作，演讲稿制作，演讲。
+  FYP                                                                                  : >
+                                                                                        本科毕业设计个人项目。<br/>
+                                                                                        该项目将与 UCD 兽医学院（解剖学领域的 David Kilroy）合作，通过 MRI 和 CT 扫描开发 VR 狗。
+                                                                                        您将在 Abraham Campbell 博士领导下的 UCD VR 实验室工作，并使用 VIVE VR 系统和 Oculus Rift。
+                                                                                        该项目的目的是开发一种可能用于教育目的的 VR 狗。
+                                                                                        UCD 计算机科学副教授 Eleni Mangina 也将指导该项目并帮助学生为 VR 狗开发 VR 学习对象，
+                                                                                        这是一种标记语言形式，允许该模型用于多种不同的 VR 学习环境。<br/>
+                                                                                        主要职责：文献综述，医学数据处理，3D模型处理，VR开发，Shader编程，实验设计，实验执行，数据收集、分析，演讲，论文撰写。
+  Egg_Collectors                                                                       : >
+                                                                                        硕士游戏开发课程个人项目-1。<br/>
+                                                                                        使用 GameMaker（免费试用版）为笔记本电脑开发一款2D游戏。<br/>
+                                                                                        主要职责：学习GameMaker语言，游戏策划，游戏开发，美术，动画、音效、视频制作。
+  User_Experience_of_VRChat_on_PC_and_VR_Platform                                      : >
+                                                                                        硕士人机交互课程小组项目。<br/>
+                                                                                        设计一个对照试验来测试特定因素（例如输入模式、界面等）在人机交互中的作用。<br/>
+                                                                                        主要职责：实验设计，主要实验执行人，数据收集，数据处理，数据分析可视化，报告撰写，演讲。
+  Drone_Destoryer                                                                      : >
+                                                                                        硕士游戏开发课程个人项目-2。<br/>
+                                                                                        使用Unity3D为笔记本开发一款3D游戏。<br/>
+                                                                                        主要职责：游戏策划，游戏开发，UI，美术&建模，视频制作。
+  Enhance-Virtual-Reality-User-Experience                                              : >
+                                                                                        人机交互硕士课程人机交互个人论文：交互技术、设备和模式。<br/>
+                                                                                        人机交互 (HCI) 是一门广泛的学科，通常涉及计算机科学、心理学、工程学、设计和社会科学等许多领域的研究人员和从业者的合作。
+                                                                                        HCI 的跨学科性质反映在文献中，也反映在该领域的主要国际会议——ACM 计算系统人为因素会议 (ACM CHI) 的结构中。
+                                                                                        ACM CHI 是所有计算机科学领域中规模最大、引用次数最多的出版场所之一。多样性是它的一大优势。
+                                                                                        当作者向 ACM CHI 提交论文时，他们需要选择一个 小组委员会。 一些小组委员会非常注重技术（例如工程交互系统和技术）。
+                                                                                        其他人更侧重于人类理解（例如理解人：理论、概念、方法）和新技术在医疗保健等领域的应用（例如健康、无障碍和老龄化）。<br/>
+                                                                                        主要职责：文献综述，论文撰写。
+  Interfaith-Tourist-Guidance-Using-Augmented-Reality-at-Sacred-Religious-Places       : >
+                                                                                        硕士人机交互课程小组项目：学生设计竞赛。<br/>
+                                                                                        团队可以提出一个概念（可以用于原型的清晰、详细的设计规范）或一个完全实现的原型。无论哪种方式，团队都必须清楚地说明他们的设计决策并展示所遵循的设计过程。<br/>
+                                                                                        主要职责：概念设计，原型图片、视频制作，实验设计，演讲。
+
+  Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education : >
+                                                                                        硕士学位最终个人项目：试点研究。<br/>
+                                                                                        该项目的主要目的是比较移动 AR 和移动沉浸式 AR 之间的学习体验。
+                                                                                        通过将当前的 UCD 固定 VR 体验转换为移动沉浸式环境用户体验，两者之间的比较成为可能。
+                                                                                        为实现这一目标，将完成以下目标： 1.将基于PC平台的兽医实验室应用程序转换为Android平台，并使用ARCore SDK或Vuforia SDK调整特性和功能以适应移动环境。
+                                                                                        2、创建图片目标锚点，实现多设备间信息共享。 此外，如果有能力，开发世界锚点或云锚点来实现此功能。
+                                                                                        3.设计一个实验，比较使用两种不同的移动AR设备的效率，并得到输出来对结果进行分析。
+                                                                                        在开始创建 AR/沉浸式 AR 应用程序之前，该项目将包括对与 AR 和沉浸式 AR 在教育中的使用相关的现有文献的审查。<br/>
+                                                                                        主要职责：文献综述，3D模型处理，VR开发，AR开发，实验设计，实验执行，数据收集、分析，论文撰写。
+
   test                                                                                 : "测试"
 
 

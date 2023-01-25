@@ -9,7 +9,7 @@ collection: portfolio
 tags:
  - game
  - java
-image: Vet2022Teaser.png
+image: Vet2022Teaser-s.png
 ---
 
 {% include base_path %}
