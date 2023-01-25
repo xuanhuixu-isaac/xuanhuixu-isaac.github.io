@@ -2,13 +2,13 @@ main:
   - title: "论文发表"
     url: /publications/
 
-  - title: "演讲"
+  - title: "学术演讲"
     url: /talks/    
 
-#  - title: "教学"
-#    url: /teaching/    
+  - title: "教学经验"
+    url: /teaching/    
     
-  - title: "资料夹"
+  - title: "作品集"
     url: /portfolio/
         
   - title: "博客"
@@ -45,9 +45,9 @@ social:
 titles:
   about            : "关于我"
   publications     : "论文发表"
-  talks            : "演讲"
-  teaching         : "教学"
-  portfolio        : "资料夹"
+  talks            : "学术演讲"
+  teaching         : "教学经验"
+  portfolio        : "作品集"
   posts            : "博客"
   cv               : "简历"
   portfolios       :
