@@ -10,6 +10,7 @@ tags:
  - game
  - Unity
 video: "https://youtu.be/_dTWPRyGPQA"
+b_video: "https://www.bilibili.com/video/BV1uM411q7pH"
 pdf: "/files/DroneDestoryer.pdf"
 image: DroneDestoryer.png
 ---

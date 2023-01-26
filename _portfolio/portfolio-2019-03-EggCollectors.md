@@ -10,6 +10,7 @@ tags:
  - game
  - GameMaker
 video: "https://youtu.be/w4N1ribeIys"
+b_video: "https://www.bilibili.com/video/BV1XD4y1n7Pf"
 pdf: "/files/EggCollectors.pdf"
 image: EggCollectors.png
 ---

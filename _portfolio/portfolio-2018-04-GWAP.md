@@ -9,6 +9,7 @@ collection: portfolio
 tags:
  - research
 video: "https://youtu.be/g2K9TmxJ-Hg"
+b_video: "https://www.bilibili.com/video/BV1mD4y1n7CJ/"
 pdf: "/files/GWAP.pdf"
 image: DoodleKnight.png
 ---
