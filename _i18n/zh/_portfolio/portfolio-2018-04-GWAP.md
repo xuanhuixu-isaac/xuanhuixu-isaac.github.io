@@ -1,6 +1,8 @@
 视频
 ======
-<iframe src='https://www.youtube.com/embed/g2K9TmxJ-Hg'></iframe>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?aid=735754308&bvid=BV1mD4y1n7CJ&cid=980738393&page=1&high_quality=1&danmaku=0" frameborder="no" scrolling="no"></iframe>
+</div><br/>
 
 
 背景

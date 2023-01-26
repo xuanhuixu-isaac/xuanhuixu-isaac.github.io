@@ -1,6 +1,6 @@
 Video
 ======
-<iframe src='https://www.youtube.com/embed/w4N1ribeIys'></iframe>
+<iframe src='https://www.youtube.com/embed/w4N1ribeIys' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br/>
 
 Background
 ======
