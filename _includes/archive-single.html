@@ -116,8 +116,12 @@
             <i class="page__tag page__tag--other">{{ tag_word }}</i>
             {% endif %}
           {% endfor %}
+          <i style="margin-left: 1em"></i>
           {% if post.video %}
-            <a href="{{post.video}}"><i class="fab fa-fw fa-youtube" aria-hidden="true" style="margin-left: 1em; color: #bb0000"></i></a>
+            <a href="{{post.video}}"><i class="fab fa-fw fa-youtube" aria-hidden="true" style="color: #bb0000"></i></a>
+          {% endif %}
+          {% if post.b_video %}
+            <a href="{{post.b_video}}"><i class="fab fa-fw fa-brands fa-bilibili" aria-hidden="true" style="color: #2682c9"></i></a>
           {% endif %}
           {% if post.pdf %}
             <a href="{{post.pdf}}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true" style="color: #bb0000"></i></a>
