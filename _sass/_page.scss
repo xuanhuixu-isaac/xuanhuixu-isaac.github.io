@@ -405,11 +405,13 @@
    ========================================================================== */
 
 .page__tag {
+  
   height: auto;
-  border: 1px solid;
-  border-radius: 2px;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 5px;
   font-size: xx-small;
-  padding: 1px;
+  vertical-align: text-top;
 
   &--research {
     color: #8ab6d6;
