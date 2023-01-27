@@ -109,9 +109,19 @@
           <span itemprop="keywords">
           {% for tag_word in post.tags %}
             {% if tag_word == "research"%}
-            <i class="page__tag page__tag--research">{{ tag_word }}</i>
+            <i class="page__tag page__tag--research"><i class="fa-fw fa-sharp fa-solid fa-graduation-cap"></i>{{ tag_word }}</i>
+            {% elsif tag_word == "published" %}
+            <i class="page__tag page__tag--research"><i class="fab fa-fw fa-brands fa-researchgate"></i>{{ tag_word }}</i>
             {% elsif tag_word == "game" %}
-            <i class="page__tag page__tag--game">{{ tag_word }}</i>
+            <i class="page__tag page__tag--game"><i class="fa-fw fa-solid fa-gamepad"></i>{{ tag_word }}</i>
+            {% elsif tag_word == "Unity" %}
+            <i class="page__tag page__tag--unity"><i class="fab fa-fw fa-brands fa-unity"></i>{{ tag_word }}</i>
+            {% elsif tag_word == "java" %}
+            <i class="page__tag page__tag--java"><i class="fab fa-fw fa-brands fa-java"></i>{{ tag_word }}</i>
+            {% elsif tag_word == "Blender" %}
+            <i class="page__tag page__tag--blender"><i class="fa-fw fa-solid fa-cube"></i>{{ tag_word }}</i>
+            {% elsif tag_word == "Android" %}
+            <i class="page__tag page__tag--android"><i class="fab fa-fw fa-brands fa-android"></i>{{ tag_word }}</i>
             {% else %}
             <i class="page__tag page__tag--other">{{ tag_word }}</i>
             {% endif %}

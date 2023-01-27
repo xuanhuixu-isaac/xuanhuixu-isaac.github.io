@@ -11,6 +11,7 @@ tags:
  - research
  - published
  - Unity
+ - Blender
 video: "https://youtu.be/Qn55bFj0F8E"
 b_video: "https://www.bilibili.com/video/BV1bP4y1z7LH"
 pdf: "/files/FYP.pdf"

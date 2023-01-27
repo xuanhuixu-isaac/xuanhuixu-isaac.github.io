@@ -7,7 +7,7 @@ excerpt: portfolios_excerpt.Note_Pills
 date: 2017-12-03
 collection: portfolio
 tags:
- - android
+ - Android
 pdf: "/files/Note Pills.pdf"
 image: NotePills.png
 ---

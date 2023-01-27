@@ -9,6 +9,7 @@ collection: portfolio
 tags:
  - game
  - Unity
+ - Blender
 video: "https://youtu.be/AJHGBPGSVEg"
 pdf: "/files/Notorious Duo.pdf"
 image: NotoriousDuo.png

@@ -11,6 +11,7 @@ tags:
   - research
   - published
   - Unity
+  - Blender
 video: "https://youtu.be/XwrbBbbfVUY"
 b_video: "https://www.bilibili.com/video/BV1xA411C7Dq"
 pdf: "/files/Comparison Between Augmented Reality and Mobile Virtual Reality in Anatomy Education.pdf"
