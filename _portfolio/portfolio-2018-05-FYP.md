@@ -8,7 +8,6 @@ date: 2018-05-12
 collection: portfolio
 published: /publication/2018-08-15-Delaying-when-all-dogs-to-go-to-heaven-virtual-reality-canine-anatomy-education-pilot-study
 tags:
- - research
  - published
  - Unity
  - Blender

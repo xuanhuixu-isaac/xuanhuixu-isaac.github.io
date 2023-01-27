@@ -63,6 +63,7 @@ titles:
     Interfaith-Tourist-Guidance-Using-Augmented-Reality-at-Sacred-Religious-Places       : "Interfaith Tourist Guidance Using Augmented Reality at Sacred Religious Places"
     Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education : "Comparison Between Augmented Reality and Mobile Virtual Reality in Anatomy Education"
     test                                                                                 : "test"
+    Comparison-of-Tablet-based-AR-and-Tablet-App-in-Veterinary-Self-learning             : "Comparison of Tablet-based Augmented Reality and Tablet App in Veterinary Self-learning"
 
 portfolios_excerpt:
   MrGulp                                                                               : >
@@ -88,7 +89,7 @@ portfolios_excerpt:
                                                                                         The aim of the project is to develop a VR dog that potentially could be used for education purposes.
                                                                                         As such UCD computer science Associated Professor Eleni Mangina will also mentor the project and aid the student in developing a VR learning object for the VR dog, 
                                                                                         this is a form of mark-up language to allow the model be used in a multitude of different VR learning environments.<br/>
-                                                                                        Responsibility: literatiure review, medical data processing, 3D model processing, VR development, Shader programming, experiment design, experimenter, data collection and analysis, presentation, and paper writing.
+                                                                                        Responsibility: literature review, medical data processing, 3D model processing, VR development, Shader programming, experiment design, experimenter, data collection and analysis, presentation, and paper writing.
   Egg_Collectors                                                                       : >
                                                                                         Master's degree game development course individual project - 1.<br/>
                                                                                         Use GameMaker (free trial version) to develop a 2-dimensional game for laptop.<br/>
@@ -129,8 +130,15 @@ portfolios_excerpt:
                                                                                         Furthermore, if capable, development world anchor or cloud anchor to implement this feature.
                                                                                         3. Design an experiment about comparing the efficiency of using two different mobile AR devices and get the outputs to do the analysation for the results. 
                                                                                         The project would including a review of existing literature related the use of AR and immersive AR in education before the starting the creation of the AR/ Immersive AR applications.<br/>
-                                                                                        Responsibility: literatiure review, 3D model processing, VR development, AR development, experiment design, experimenter, data collection and analysis, and paper writing.
+                                                                                        Responsibility: literature review, 3D model processing, VR development, AR development, experiment design, experimenter, data collection and analysis, and paper writing.
   test                                                                                 : "test"
+  Comparison-of-Tablet-based-AR-and-Tablet-App-in-Veterinary-Self-learning             : >
+                                                                                        Doctoral degree project.<br/>
+                                                                                        The objective of the study is to compare a smartphone AR self-learning application with 
+                                                                                        a non-AR smartphone app teaching tool to see which one will more effectively support veterinary students' self-learning.
+                                                                                        Developed and deployed the app to both Android and iOS platforms using AR Foundation.
+                                                                                        Conducted a remote experiment by launching an opening test on the corresponding app store.<br/><br/>
+                                                                                        Responsibility: literature review, 3D model processing, AR development, experiment design, connecting with other colleges, paper writing, and presentation.
 
 
 publication:

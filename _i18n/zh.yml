@@ -63,6 +63,7 @@ titles:
     Interfaith-Tourist-Guidance-Using-Augmented-Reality-at-Sacred-Religious-Places       : "在宗教圣地使用增强现实进行宗教间旅游指导"
     Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education : "比较增强现实与移动虚拟现实在解剖学教育中的应用"
     test                                                                                 : "测试"
+    Comparison-of-Tablet-based-AR-and-Tablet-App-in-Veterinary-Self-learning             : "比较平板电脑AR与平板电脑App在兽医自学中的应用"
 
 portfolios_excerpt:
   MrGulp                                                                               : >
@@ -125,6 +126,12 @@ portfolios_excerpt:
                                                                                         主要职责：文献综述，3D模型处理，VR开发，AR开发，实验设计，实验执行，数据收集、分析，论文撰写。
 
   test                                                                                 : "测试"
+  Comparison-of-Tablet-based-AR-and-Tablet-App-in-Veterinary-Self-learning             : >
+                                                                                        博士学位项目。<br/>
+                                                                                        该研究的目的是比较智能手机 AR 自学应用程序和非 AR 智能手机应用程序教学工具，看看哪一个能更有效地支持兽医学生的自学。
+                                                                                        使用 AR Foundation 开发应用并将其部署到安卓平台（iOS 由合作研究员完成）。
+                                                                                        通过在相应的应用商店上启动开放测试来进行远程实验。<br/><br/>
+                                                                                        主要职责：文献综述，3D模型处理，AR开发，实验设计，外校对接，论文撰写，演讲。
 
 
 publication:

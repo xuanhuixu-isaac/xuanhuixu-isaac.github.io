@@ -1,19 +1,17 @@
 ---
 layout: default
-title: titles.portfolios.Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education
-title_code: Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education
-permalink: /portfolio/portfolio-2019-08-Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education
-excerpt: portfolios_excerpt.Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education
-date: 2019-08-11
+title: titles.portfolios.Comparison-of-Tablet-based-AR-and-Tablet-App-in-Veterinary-Self-learning
+title_code: Comparison-of-Tablet-based-AR-and-Tablet-App-in-Veterinary-Self-learning
+permalink: /portfolio/portfolio-2021-03-Comparison-of-Tablet-based-AR-and-Tablet-App-in-Veterinary-Self-learning
+excerpt: portfolios_excerpt.Comparison-of-Tablet-based-AR-and-Tablet-App-in-Veterinary-Self-learning
+date: 2021-03-27
 collection: portfolio
-published: /publication/2020-06-21-Adapting-a-Virtual-Reality-Anatomy-Teaching-Tool-for-Mobility-Pilot-Study
 tags:
-  - published
-  - Unity
-  - Blender
-video: "https://youtu.be/XwrbBbbfVUY"
-b_video: "https://www.bilibili.com/video/BV1xA411C7Dq"
-pdf: "/files/Comparison Between Augmented Reality and Mobile Virtual Reality in Anatomy Education.pdf"
+ - published
+ - Android
+ - iOS
+ - Unity
+image: VetAR2021.png
 ---
 
 {% include base_path %}
@@ -64,7 +62,7 @@ pdf: "/files/Comparison Between Augmented Reality and Mobile Virtual Reality in 
             </nav>
           </aside>
         {% endif %}
-        {% tf _portfolio/portfolio-2019-08-Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education.md %}
+        {% tf _portfolio/portfolio-2022-01-test.md %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.translations[site.lang].UI.ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
