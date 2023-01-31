@@ -64,6 +64,8 @@ titles:
     Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education : "比较增强现实与移动虚拟现实在解剖学教育中的应用"
     test                                                                                 : "测试"
     Comparison-of-Tablet-based-AR-and-Tablet-App-in-Veterinary-Self-learning             : "比较平板电脑AR与平板电脑App在兽医自学中的应用"
+    Using-HMD-based-Hand-Tracking-Virtual-Reality-in-Canine-Anatomy-Summative-Assessment : "基于头戴式VR手势操作的犬类解剖学综合性评估系统"
+    Co-located-MR-for-Teaching-Equine-Radiology-Techniques-to-Veterinary-Students        : "马放射学技术的多人本地协同MR教学系统"
 
 portfolios_excerpt:
   MrGulp                                                                               : >
@@ -132,6 +134,21 @@ portfolios_excerpt:
                                                                                         使用 AR Foundation 开发应用并将其部署到安卓平台（iOS 由合作研究员完成）。
                                                                                         通过在相应的应用商店上启动开放测试来进行远程实验。<br/><br/>
                                                                                         主要职责：文献综述，3D模型处理，AR开发，实验设计，外校对接，论文撰写，演讲。
+  Using-HMD-based-Hand-Tracking-Virtual-Reality-in-Canine-Anatomy-Summative-Assessment : >
+                                                                                        博士学位项目。<br/>
+                                                                                        该项目于19年末完成，因疫情2年后才完成实验，3年后成果发表于ISMAR2022。
+                                                                                        该系统为使用非接触式交互头戴式显示器 (HMD) 虚拟现实 (VR) 的总结性评估系统，并进行了一项用户研究。
+                                                                                        该研究是为在取代兽医学生的传统空间多项选择题 (MCQ)的初步探索。<br/><br/>
+                                                                                        主要职责：文献综述，3D模型处理，VR开发，实验设计，主导实验，数据收集，数据处理，论文撰写，演讲。
+  Co-located-MR-for-Teaching-Equine-Radiology-Techniques-to-Veterinary-Students        : >
+                                                                                        博士学位项目。<br/>
+                                                                                        有限的实验室设备和接触大型动物的机会阻碍了学生在诊断成像和放射学方面的培训。
+                                                                                        虚拟现实 (VR) 已被用来克服这些问题。但是，这些系统是为人体放射学设计的；
+                                                                                        因此，它们不是为处理大型动物时必不可少的同地多用户协作而设计的。
+                                                                                        我们提出了一个协同定位的混合现实 (MR) 系统，通过在 VR 头戴式显示器中使用直通摄像头来培训学生放射学技术。
+                                                                                        它将同步讲师和学生，限制他们接触 X 射线，并允许工作人员在实时 MR 环境中指导学生。
+                                                                                        手部追踪非接触式交互提供更本能和无危险的学习体验。<br/><br/>
+                                                                                        主要职责：文献综述，3D建模，VR开发，实验设计，主导实验，数据收集，数据处理，论文撰写，演讲。
 
 
 publication:

@@ -1,14 +1,15 @@
 ---
 layout: default
-title: titles.portfolios.test
-title_code: test
-permalink: /portfolio/test
-excerpt: portfolios_excerpt.test
-date: 2022-10-01
+title: titles.portfolios.Using-HMD-based-Hand-Tracking-Virtual-Reality-in-Canine-Anatomy-Summative-Assessment
+title_code: Using-HMD-based-Hand-Tracking-Virtual-Reality-in-Canine-Anatomy-Summative-Assessment
+permalink: /portfolio/portfolio-2022-10-Using-HMD-based-Hand-Tracking-Virtual-Reality-in-Canine-Anatomy-Summative-Assessment
+excerpt: portfolios_excerpt.Using-HMD-based-Hand-Tracking-Virtual-Reality-in-Canine-Anatomy-Summative-Assessment
+date: 2022-10-20
 collection: portfolio
 tags:
- - game
- - java
+ - published
+ - Unity
+ - Blender
 image: Vet2022Teaser-s.png
 ---
 
@@ -60,7 +61,7 @@ image: Vet2022Teaser-s.png
             </nav>
           </aside>
         {% endif %}
-        {% tf _portfolio/portfolio-2022-01-test.md %}
+        {% tf _portfolio/portfolio-2022-10-Using-HMD-based-Hand-Tracking-Virtual-Reality-in-Canine-Anatomy-Summative-Assessment.md %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.translations[site.lang].UI.ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 

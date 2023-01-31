@@ -64,6 +64,8 @@ titles:
     Comparison-Between-Augmented-Reality-and-Mobile-Virtual-Reality-in-Anatomy-Education : "Comparison Between Augmented Reality and Mobile Virtual Reality in Anatomy Education"
     test                                                                                 : "test"
     Comparison-of-Tablet-based-AR-and-Tablet-App-in-Veterinary-Self-learning             : "Comparison of Tablet-based Augmented Reality and Tablet App in Veterinary Self-learning"
+    Using-HMD-based-Hand-Tracking-Virtual-Reality-in-Canine-Anatomy-Summative-Assessment : "Using HMD-based Hand Tracking Virtual Reality in Canine Anatomy Summative Assessment"
+    Co-located-MR-for-Teaching-Equine-Radiology-Techniques-to-Veterinary-Students        : "Co-located Mixed Reality for Teaching Equine Radiology Techniques to Veterinary Students"
 
 portfolios_excerpt:
   MrGulp                                                                               : >
@@ -139,6 +141,28 @@ portfolios_excerpt:
                                                                                         Developed and deployed the app to both Android and iOS platforms using AR Foundation.
                                                                                         Conducted a remote experiment by launching an opening test on the corresponding app store.<br/><br/>
                                                                                         Responsibility: literature review, 3D model processing, AR development, experiment design, connecting with other colleges, paper writing, and presentation.
+  Using-HMD-based-Hand-Tracking-Virtual-Reality-in-Canine-Anatomy-Summative-Assessment : >
+                                                                                        Doctoral degree project.<br/>
+                                                                                        We designed and implemented a summative assessment system using touchless interaction 
+                                                                                        head-mounted display (HMD) Virtual Reality (VR), and presented a user study that was 
+                                                                                        an initial exploration of the proposed system designed to replace traditional spatial 
+                                                                                        multiple choices questions (MCQs) for veterinary students.<br/><br/>
+                                                                                        Responsibility: literature review, 3D model processing, VR development, experiment design, experimentor, data collection, data analysis, paper writing, and presentation.
+  Co-located-MR-for-Teaching-Equine-Radiology-Techniques-to-Veterinary-Students        : >
+                                                                                        Doctoral degree project.<br/>
+                                                                                        The limited laboratory equipment and access to large animals hinder training of 
+                                                                                        students in diagnostic imaging and radiology. Virtual Reality (VR) has been 
+                                                                                        utilized to overcome these problems. However, those systems are designed for 
+                                                                                        human radiology; hence, they are not designed for co-located multi-user 
+                                                                                        collaboration that is essential when dealing with large animals. We propose 
+                                                                                        a collaborative co-located Mixed Reality (MR) system for training students in 
+                                                                                        radiology techniques by utilizing passthrough cameras in VR head-mounted display. 
+                                                                                        It will synchronize the lecturer and the students, limit their exposure to X-rays, 
+                                                                                        and allow staff to guide the students in a real-time MR environment. 
+                                                                                        The hand-tracking touchless interaction provides a more instinctive and hazard-free 
+                                                                                        learning experience.<br/><br/>
+                                                                                        Responsibility: literature review, 3D modelling, VR development, experiment design, experimentor, data collection, data analysis, paper writing, and presentation.
+
 
 
 publication:
