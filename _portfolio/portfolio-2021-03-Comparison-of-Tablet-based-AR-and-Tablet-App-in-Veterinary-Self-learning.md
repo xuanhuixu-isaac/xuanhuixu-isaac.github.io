@@ -62,7 +62,7 @@ image: VetAR2021.png
             </nav>
           </aside>
         {% endif %}
-        {% tf _portfolio/portfolio-2022-01-test.md %}
+        {% tf _portfolio/portfolio-2021-03-Comparison-of-Tablet-based-AR-and-Tablet-App-in-Veterinary-Self-learning.md %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.translations[site.lang].UI.ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
