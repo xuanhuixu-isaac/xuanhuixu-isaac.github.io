@@ -6,11 +6,14 @@ permalink: /portfolio/portfolio-2022-10-Using-HMD-based-Hand-Tracking-Virtual-Re
 excerpt: portfolios_excerpt.Using-HMD-based-Hand-Tracking-Virtual-Reality-in-Canine-Anatomy-Summative-Assessment
 date: 2022-10-20
 collection: portfolio
+published: /publication/2022-10-20-Using-HMD-based-Hand-Tracking-Virtual-Reality-in-Canine-Anatomy-Summative-Assessment-a-User-Study
 tags:
  - published
  - Unity
  - Blender
 image: Vet2022Teaser-s.png
+video: "https://youtu.be/h1P33KmwwEg"
+b_video: "https://www.bilibili.com/video/BV1tY411Q7Ui/"
 ---
 
 {% include base_path %}

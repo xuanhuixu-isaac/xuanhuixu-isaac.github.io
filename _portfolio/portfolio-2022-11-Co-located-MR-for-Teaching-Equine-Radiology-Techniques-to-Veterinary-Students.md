@@ -6,11 +6,14 @@ permalink: /portfolio/portfolio-2022-11-Co-located-MR-for-Teaching-Equine-Radiol
 excerpt: portfolios_excerpt.Co-located-MR-for-Teaching-Equine-Radiology-Techniques-to-Veterinary-Students
 date: 2022-11-29
 collection: portfolio
+published: /publication/2022-11-28-Co-located-Mixed-Reality-for-Teaching-Equine-Radiology-Techniques-to-Veterinary-Students
 tags:
  - published
  - Unity
  - Blender
 image: GEM2022.png
+video: "https://youtu.be/EF2ugRFD7cw"
+b_video: "https://www.bilibili.com/video/BV1YR4y1b7Rb"
 ---
 
 {% include base_path %}

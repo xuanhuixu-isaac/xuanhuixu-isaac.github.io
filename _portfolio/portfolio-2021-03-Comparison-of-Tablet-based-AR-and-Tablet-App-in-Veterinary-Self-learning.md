@@ -6,12 +6,15 @@ permalink: /portfolio/portfolio-2021-03-Comparison-of-Tablet-based-AR-and-Tablet
 excerpt: portfolios_excerpt.Comparison-of-Tablet-based-AR-and-Tablet-App-in-Veterinary-Self-learning
 date: 2021-03-27
 collection: portfolio
+published: /publication/2021-07-14-Augmented-Reality-for-Veterinary-self-learning-during-the-pandemic-a-holistic-study-protocol-for-a-remote-randomised-cross-over-study
 tags:
  - published
  - Android
  - iOS
  - Unity
 image: VetAR2021.png
+video: "https://youtu.be/xElDW8IZKPA"
+b_video: "https://www.bilibili.com/video/BV19d4y1H7BD/"
 ---
 
 {% include base_path %}
