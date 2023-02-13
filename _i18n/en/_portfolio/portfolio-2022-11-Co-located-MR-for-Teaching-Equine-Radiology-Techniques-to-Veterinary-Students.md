@@ -12,6 +12,6 @@ Model
         width: 100%;
     }
 </style>
-<model-viewer src="models/VetRadioScanner.glb" alt="A 3D model of an astronaut" auto-rotate camera-controls camera-orbit="45deg 55deg 2.5m" environment-image="neutral"></model-viewer>
-<model-viewer src="models/VetRadioCassette.glb" alt="A 3D model of an astronaut" auto-rotate camera-controls camera-orbit="45deg 55deg 2.5m" environment-image="neutral"></model-viewer>
-<model-viewer src="models/VetRadioHolder.glb" alt="A 3D model of an astronaut" auto-rotate camera-controls camera-orbit="45deg 55deg 2.5m" environment-image="neutral"></model-viewer>
+<model-viewer src="/models/VetRadioScanner.glb" alt="A 3D model of an astronaut" auto-rotate camera-controls camera-orbit="45deg 55deg 2.5m" environment-image="neutral"></model-viewer>
+<model-viewer src="/models/VetRadioCassette.glb" alt="A 3D model of an astronaut" auto-rotate camera-controls camera-orbit="45deg 55deg 2.5m" environment-image="neutral"></model-viewer>
+<model-viewer src="/models/VetRadioHolder.glb" alt="A 3D model of an astronaut" auto-rotate camera-controls camera-orbit="45deg 55deg 2.5m" environment-image="neutral"></model-viewer>
