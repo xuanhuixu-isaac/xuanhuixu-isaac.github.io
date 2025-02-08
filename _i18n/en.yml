@@ -20,16 +20,16 @@ main:
 #  - title: "Guide"
 #    url: /markdown/
 
-title              : "Xuanhui Xu (Isaac)"
+title              : "Xuanhui (Isaac) Xu"
 
 global:
   english          : "En"
   chinese          : "中"
 
 author:
-  name             : "Xuanhui Xu"
+  name             : "Dr. Xuanhui Xu"
   avatar           : "self-profile.jpg"
-  bio              : "Computer Science Ph.D student, working on Virtual Reality and Augmented Reality application in Medicine and Veterinary education"
+  bio              : "Research Scientist, Postdoctoral Researcher, and Adjunct Lecturer in School of Computer Science"
   location         : "Ireland"
   employer         : "University College Dublin"
 

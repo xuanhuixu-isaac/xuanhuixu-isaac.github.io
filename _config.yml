@@ -9,9 +9,9 @@
 languages                : ["en", "zh"]
 
 locale                   : "zh-CN, en-IE"
-title                    : "Xuanhui Xu (Isaac)"
+title                    : "Xuanhui (Isaac) Xu"
 title_separator          : "-"
-name                     : &name "Xuanhui Xu (Isaac)"
+name                     : &name "Xuanhui (Isaac) Xu"
 description              : &description "personal description"
 url                      : https://xuanhuixu-isaac.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -82,14 +82,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Xuanhui Xu"
+  name             : "Xuanhui (Isaac) Xu"
   avatar           : "self-profile.jpg"
-  bio              : "Biography is under building"
+  bio              : "Research Scientist"
   location         : "Ireland"
   employer         : "University College Dublin"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=q2cAS1wAAAAJ&hl=en"
-  email            : "xuanhui.xu@ucdconnect.ie"
+  email            : "xuanhui.xu@ucd.ie"
   researchgate     : "https://www.researchgate.net/profile/Xuanhui-Xu"
   uri              :
   bitbucket        :
