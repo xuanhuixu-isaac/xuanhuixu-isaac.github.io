@@ -276,6 +276,8 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+gems:
+  - jekyll-multiple-languages-plugin
 
 
 # Archives
