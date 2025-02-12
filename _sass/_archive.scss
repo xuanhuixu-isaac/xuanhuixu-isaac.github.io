@@ -74,6 +74,32 @@
       width: 100%;
     }
   }
+
+  /* Add new styles for flexbox layout */
+  .archive__item-content {
+    display: flex;
+    align-items: center; /* 修改这里使整体垂直居中 */
+  }
+  
+  .sidebar__left {
+    margin-right: 20px;
+    margin-top: 0; /* 移除顶部间距 */
+    display: flex; /* 新增 */
+    align-items: center; /* 新增：垂直居中 */
+    justify-content: center; /* 新增：水平居中 */
+    height: 100%; /* 新增：继承父容器高度 */
+  }
+  
+  .sidebar__left img {
+    max-width: 150px;
+    padding-top: 0; /* 移除顶部内边距 */
+    /* 移除原来的 margin 设置 */
+    object-fit: contain; /* 防止图片被拉伸 */
+  }
+  
+  .archive__item-text {
+    flex: 1;
+  }
   
   /*
      List view

@@ -12,3 +12,9 @@ My research explores the application of Mixed Reality (MR) in veterinary educati
 <model-viewer src="models/oculusquest.gltf" alt="A 3D model of an astronaut" auto-rotate camera-controls camera-orbit="45deg 55deg 2.5m" environment-image="neutral"></model-viewer> -->
 
 I have broad interest in exploring new techniques relating to VR and AR, such as photogrammetry scan, motion capture, and face tracking. Meanwhile, I am also trying to be an influencer and sharing my research output and experience with others. For more information on my researches, projects, and videos, please check out and follow my social media!
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}</ul>

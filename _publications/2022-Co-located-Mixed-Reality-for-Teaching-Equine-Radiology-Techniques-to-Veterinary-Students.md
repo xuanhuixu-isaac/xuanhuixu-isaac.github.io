@@ -1,14 +1,13 @@
 ---
 title: "Co-located Mixed Reality for Teaching Equine Radiology Techniques to Veterinary Students"
 collection: publications
-permalink: /publication/2022-11-28-Co-located-Mixed-Reality-for-Teaching-Equine-Radiology-Techniques-to-Veterinary-Students
-date: 2022-11-28
+permalink: /publication/28/11/2022-Co-located-Mixed-Reality-for-Teaching-Equine-Radiology-Techniques-to-Veterinary-Students
+date: 28/11/2022
 venue: '2022 IEEE Games, Entertainment, Media Conference (GEM)'
 paperurl: 'https://www.researchgate.net/publication/367323948_Co-located_Mixed_Reality_for_Teaching_Equine_Radiology_Techniques_to_Veterinary_Students'
 citation: 'X. Xu, D. Kilroy, A. Puggioni and A. G. Campbell, &quot;Co-located Mixed Reality for Teaching Equine Radiology Techniques to Veterinary Students,&quot; 2022 IEEE Games, Entertainment, Media Conference (GEM), St. Michael, Barbados, 2022, pp. 1-6, doi: 10.1109/GEM56474.2022.10017893.'
 author: 'X. Xu, D. Kilroy, A. Puggioni and A. G. Campbell'
 link: 'https://doi.org/10.1109/GEM56474.2022.10017893'
-image: 'GEM2022.png'
 ---
 {% t publication.abstract %} 
 ------ 

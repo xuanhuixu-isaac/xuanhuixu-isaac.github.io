@@ -11,8 +11,8 @@ main:
   - title: "Portfolio"
     url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  # - title: "Blog Posts"
+  #   url: /year-archive/
     
   - title: "CV"
     url: /cv/
@@ -167,7 +167,7 @@ portfolios_excerpt:
 
 publication:
   abstract                   : "Abstract"
-  recommended citation       : "Recommended citation"
+  recommended_citation       : "Recommended citation"
   image                      : "Image"
   published_in               : "Published in "
   published                  : "This project has been peer reviewed"
